@@ -1,0 +1,41 @@
+entity,code,year,share_pct,entity_clean,entity_type
+Africa (IEA),,2020,0.12848516,Africa,Region
+Africa (IEA),,2023,0.13967681,Africa,Region
+Africa (IEA),,2024,0.14496955,Africa,Region
+Africa (IEA),,2025,0.24995314,Africa,Region
+Asia Pacific (IEA),,2020,0.7189056,Asia Pacific,Region
+Asia Pacific (IEA),,2023,0.8408042,Asia Pacific,Region
+Asia Pacific (IEA),,2024,0.9321836,Asia Pacific,Region
+Asia Pacific (IEA),,2025,1.0674341,Asia Pacific,Region
+Central and South America (IEA),,2020,0.11703755,Central and South America,Region
+Central and South America (IEA),,2023,0.08527997,Central and South America,Region
+Central and South America (IEA),,2024,0.096574366,Central and South America,Region
+Central and South America (IEA),,2025,0.11527643,Central and South America,Region
+China,CHN,2020,0.7987601,China,Country
+China,CHN,2023,0.8898899,China,Country
+China,CHN,2024,1.0129217,China,Country
+China,CHN,2025,1.1075455,China,Country
+Europe (IEA),,2020,1.4439007,Europe,Region
+Europe (IEA),,2023,1.7518435,Europe,Region
+Europe (IEA),,2024,1.7685213,Europe,Region
+Europe (IEA),,2025,1.8701056,Europe,Region
+Middle East (IEA),,2020,0.0893597,Middle East,Region
+Middle East (IEA),,2023,0.09203735,Middle East,Region
+Middle East (IEA),,2024,0.101547584,Middle East,Region
+Middle East (IEA),,2025,0.28470466,Middle East,Region
+North America (IEA),,2020,2.2317514,North America,Region
+North America (IEA),,2023,3.0169368,North America,Region
+North America (IEA),,2024,3.4732153,North America,Region
+North America (IEA),,2025,4.1349845,North America,Region
+United States,USA,2020,2.6402705,United States,Country
+United States,USA,2023,3.6041856,United States,Country
+United States,USA,2024,4.1545305,United States,Country
+United States,USA,2025,4.9384785,United States,Country
+World,OWID_WRL,2020,1.0066096,World,Aggregate
+World,OWID_WRL,2023,1.2135375,World,Aggregate
+World,OWID_WRL,2024,1.3449625,World,Aggregate
+World,OWID_WRL,2025,1.5264845,World,Aggregate
+World excl. United States and China,,2020,0.66573197,World excl. United States and China,Aggregate
+World excl. United States and China,,2023,0.7647388,World excl. United States and China,Aggregate
+World excl. United States and China,,2024,0.7960854,World excl. United States and China,Aggregate
+World excl. United States and China,,2025,0.8636905,World excl. United States and China,Aggregate
