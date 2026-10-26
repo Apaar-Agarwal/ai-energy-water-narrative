@@ -1,0 +1,190 @@
+source_excel_row,iso3,country,indicator_name,weight,stress_score,source_rank,category_code,risk_category,region,wb_region,has_score
+357,AFG,Afghanistan,bws,Tot,3.369185991,44.0,3.0,High (40-80%),Asia,South Asia,True
+311,ALB,Albania,bws,Tot,3.473828698,41.0,3.0,High (40-80%),Europe,Europe & Central Asia,True
+209,DZA,Algeria,bws,Tot,3.873999102,34.0,3.0,High (40-80%),Africa,Middle East & North Africa,True
+288,AND,Andorra,bws,Tot,3.544997224,40.0,3.0,High (40-80%),Europe,Europe & Central Asia,True
+1499,AGO,Angola,bws,Tot,1.130789734,112.0,1.0,Low - Medium (10-20%),Africa,Sub-Saharan Africa,True
+1976,ATG,Antigua and Barbuda,bws,Tot,-9999.0,-9999.0,-9999.0,NoData,Americas,Latin America & Caribbean,False
+1238,ARG,Argentina,bws,Tot,1.834917254,85.0,1.0,Low - Medium (10-20%),Americas,Latin America & Caribbean,True
+585,ARM,Armenia,bws,Tot,2.9915904,53.0,2.0,Medium - High (20-40%),Asia,Europe & Central Asia,True
+634,AUS,Australia,bws,Tot,2.906718433,56.0,2.0,Medium - High (20-40%),Oceania,East Asia & Pacific,True
+1769,AUT,Austria,bws,Tot,0.26150335,153.0,0.0,Low (<10%),Europe,Europe & Central Asia,True
+904,AZE,Azerbaijan,bws,Tot,2.468350889,64.0,2.0,Medium - High (20-40%),Asia,Europe & Central Asia,True
+1980,BHS,Bahamas,bws,Tot,-9999.0,-9999.0,-9999.0,NoData,Americas,Latin America & Caribbean,False
+5,BHR,Bahrain,bws,Tot,5.0,4.5,4.0,Extremely High (>80%),Asia,Middle East & North Africa,True
+803,BGD,Bangladesh,bws,Tot,2.660561137,61.0,2.0,Medium - High (20-40%),Asia,South Asia,True
+1985,BRB,Barbados,bws,Tot,-9999.0,-9999.0,-9999.0,NoData,Americas,Latin America & Caribbean,False
+1487,BLR,Belarus,bws,Tot,1.180970816,110.0,1.0,Low - Medium (10-20%),Europe,Europe & Central Asia,True
+105,BEL,Belgium,bws,Tot,4.410841962,21.0,4.0,Extremely High (>80%),Europe,Europe & Central Asia,True
+1842,BLZ,Belize,bws,Tot,0.068201146,161.0,0.0,Low (<10%),Americas,Latin America & Caribbean,True
+1883,BEN,Benin,bws,Tot,0.003432064,168.0,0.0,Low (<10%),Africa,Sub-Saharan Africa,True
+1740,BTN,Bhutan,bws,Tot,0.367776177,148.0,0.0,Low (<10%),Asia,South Asia,True
+1810,BOL,Bolivia,bws,Tot,0.155531505,158.0,0.0,Low (<10%),Americas,Latin America & Caribbean,True
+1729,BIH,Bosnia and Herzegovina,bws,Tot,0.395887518,146.0,0.0,Low (<10%),Europe,Europe & Central Asia,True
+77,BWA,Botswana,bws,Tot,4.664307436,15.0,4.0,Extremely High (>80%),Africa,Sub-Saharan Africa,True
+1521,BRA,Brazil,bws,Tot,1.037909741,115.0,1.0,Low - Medium (10-20%),Americas,Latin America & Caribbean,True
+1901,BRN,Brunei,bws,Tot,0.0,181.5,0.0,Low (<10%),Asia,East Asia & Pacific,True
+1394,BGR,Bulgaria,bws,Tot,1.45732336,99.0,1.0,Low - Medium (10-20%),Europe,Europe & Central Asia,True
+1320,BFA,Burkina Faso,bws,Tot,1.646041049,93.0,1.0,Low - Medium (10-20%),Africa,Sub-Saharan Africa,True
+1895,BDI,Burundi,bws,Tot,0.0,181.5,0.0,Low (<10%),Africa,Sub-Saharan Africa,True
+1219,KHM,Cambodia,bws,Tot,1.87051284,82.0,1.0,Low - Medium (10-20%),Asia,East Asia & Pacific,True
+1877,CMR,Cameroon,bws,Tot,0.008131338,167.0,0.0,Low (<10%),Africa,Sub-Saharan Africa,True
+1470,CAN,Canada,bws,Tot,1.233315456,107.0,1.0,Low - Medium (10-20%),Americas,North America,True
+1992,CPV,Cape Verde,bws,Tot,-9999.0,-9999.0,-9999.0,NoData,Africa,Sub-Saharan Africa,False
+1876,CAF,Central African Republic,bws,Tot,0.010127157,166.0,0.0,Low (<10%),Africa,Sub-Saharan Africa,True
+1562,TCD,Chad,bws,Tot,0.853364564,123.0,0.0,Low (<10%),Africa,Sub-Saharan Africa,True
+95,CHL,Chile,bws,Tot,4.471868674,19.0,4.0,Extremely High (>80%),Americas,Latin America & Caribbean,True
+715,CHN,China,bws,Tot,2.800257843,57.0,2.0,Medium - High (20-40%),Asia,East Asia & Pacific,True
+1694,COL,Colombia,bws,Tot,0.496141456,143.0,0.0,Low (<10%),Americas,Latin America & Caribbean,True
+1988,COM,Comoros,bws,Tot,-9999.0,-9999.0,-9999.0,NoData,Africa,Sub-Saharan Africa,False
+1640,CRI,Costa Rica,bws,Tot,0.648226696,136.0,0.0,Low (<10%),Americas,Latin America & Caribbean,True
+1802,HRV,Croatia,bws,Tot,0.167654501,157.0,0.0,Low (<10%),Europe,Europe & Central Asia,True
+1316,CUB,Cuba,bws,Tot,1.650924902,92.0,1.0,Low - Medium (10-20%),Americas,Latin America & Caribbean,True
+11,CYP,Cyprus,bws,Tot,5.0,4.5,4.0,Extremely High (>80%),Asia,Europe & Central Asia,True
+1237,CZE,Czech Republic,bws,Tot,1.835970493,84.0,1.0,Low - Medium (10-20%),Europe,Europe & Central Asia,True
+1909,CIV,CÃ´te d'Ivoire,bws,Tot,0.0,181.5,0.0,Low (<10%),Africa,Sub-Saharan Africa,True
+1872,COD,Democratic Republic of the Congo,bws,Tot,0.012159601,165.0,0.0,Low (<10%),Africa,Sub-Saharan Africa,True
+1535,DNK,Denmark,bws,Tot,0.951421243,119.0,0.0,Low (<10%),Europe,Europe & Central Asia,True
+444,DJI,Djibouti,bws,Tot,3.175518835,49.0,3.0,High (40-80%),Africa,Middle East & North Africa,True
+1995,DMA,Dominica,bws,Tot,-9999.0,-9999.0,-9999.0,NoData,Americas,Latin America & Caribbean,False
+1336,DOM,Dominican Republic,bws,Tot,1.604479359,95.0,1.0,Low - Medium (10-20%),Americas,Latin America & Caribbean,True
+1638,ECU,Ecuador,bws,Tot,0.6573219,135.0,0.0,Low (<10%),Americas,Latin America & Caribbean,True
+57,EGY,Egypt,bws,Tot,4.851625216,12.0,4.0,Extremely High (>80%),Africa,Middle East & North Africa,True
+1178,SLV,El Salvador,bws,Tot,1.947996154,77.0,1.0,Low - Medium (10-20%),Americas,Latin America & Caribbean,True
+1923,GNQ,Equatorial Guinea,bws,Tot,0.0,181.5,0.0,Low (<10%),Africa,Sub-Saharan Africa,True
+197,ERI,Eritrea,bws,Tot,3.942539986,32.0,3.0,High (40-80%),Africa,Sub-Saharan Africa,True
+1473,EST,Estonia,bws,Tot,1.218060312,108.0,1.0,Low - Medium (10-20%),Europe,Europe & Central Asia,True
+1533,ETH,Ethiopia,bws,Tot,0.961237436,118.0,0.0,Low (<10%),Africa,Sub-Saharan Africa,True
+1999,FJI,Fiji,bws,Tot,-9999.0,-9999.0,-9999.0,NoData,Oceania,East Asia & Pacific,False
+1584,FIN,Finland,bws,Tot,0.80862528,126.0,0.0,Low (<10%),Europe,Europe & Central Asia,True
+1194,FRA,France,bws,Tot,1.916452159,78.0,1.0,Low - Medium (10-20%),Europe,Europe & Central Asia,True
+1916,GAB,Gabon,bws,Tot,0.0,181.5,0.0,Low (<10%),Africa,Sub-Saharan Africa,True
+1863,GMB,Gambia,bws,Tot,0.024514391,163.0,0.0,Low (<10%),Africa,Sub-Saharan Africa,True
+1546,GEO,Georgia,bws,Tot,0.928146972,120.0,0.0,Low (<10%),Asia,Europe & Central Asia,True
+1134,DEU,Germany,bws,Tot,2.041904513,74.0,2.0,Medium - High (20-40%),Europe,Europe & Central Asia,True
+1824,GHA,Ghana,bws,Tot,0.112402618,160.0,0.0,Low (<10%),Africa,Sub-Saharan Africa,True
+114,GRC,Greece,bws,Tot,4.338904439,22.0,4.0,Extremely High (>80%),Europe,Europe & Central Asia,True
+2005,GRD,Grenada,bws,Tot,-9999.0,-9999.0,-9999.0,NoData,Americas,Latin America & Caribbean,False
+1525,GTM,Guatemala,bws,Tot,1.026662175,117.0,1.0,Low - Medium (10-20%),Americas,Latin America & Caribbean,True
+1743,GIN,Guinea,bws,Tot,0.355084919,150.0,0.0,Low (<10%),Africa,Sub-Saharan Africa,True
+1759,GNB,Guinea-Bissau,bws,Tot,0.307489251,152.0,0.0,Low (<10%),Africa,Sub-Saharan Africa,True
+781,GUY,Guyana,bws,Tot,2.695733857,59.0,2.0,Medium - High (20-40%),Americas,Latin America & Caribbean,True
+1343,HTI,Haiti,bws,Tot,1.602577632,96.0,1.0,Low - Medium (10-20%),Americas,Latin America & Caribbean,True
+1823,HND,Honduras,bws,Tot,0.112622036,159.0,0.0,Low (<10%),Americas,Latin America & Caribbean,True
+1714,HUN,Hungary,bws,Tot,0.425174735,144.0,0.0,Low (<10%),Europe,Europe & Central Asia,True
+1928,ISL,Iceland,bws,Tot,0.0,181.5,0.0,Low (<10%),Europe,Europe & Central Asia,True
+153,IND,India,bws,Tot,4.107794474,27.0,4.0,Extremely High (>80%),Asia,South Asia,True
+796,IDN,Indonesia,bws,Tot,2.669162882,60.0,2.0,Medium - High (20-40%),Asia,East Asia & Pacific,True
+79,IRN,Iran,bws,Tot,4.653368575,16.0,4.0,Extremely High (>80%),Asia,Middle East & North Africa,True
+142,IRQ,Iraq,bws,Tot,4.146234505,26.0,4.0,Extremely High (>80%),Asia,Middle East & North Africa,True
+1741,IRL,Ireland,bws,Tot,0.363338153,149.0,0.0,Low (<10%),Europe,Europe & Central Asia,True
+51,ISR,Israel,bws,Tot,4.941652066,11.0,4.0,Extremely High (>80%),Asia,Middle East & North Africa,True
+367,ITA,Italy,bws,Tot,3.344018796,45.0,3.0,High (40-80%),Europe,Europe & Central Asia,True
+1933,JAM,Jamaica,bws,Tot,0.0,181.5,0.0,Low (<10%),Americas,Latin America & Caribbean,True
+1171,JPN,Japan,bws,Tot,1.967749978,76.0,1.0,Low - Medium (10-20%),Asia,East Asia & Pacific,True
+86,JOR,Jordan,bws,Tot,4.619580866,18.0,4.0,Extremely High (>80%),Asia,Middle East & North Africa,True
+881,KAZ,Kazakhstan,bws,Tot,2.511560337,63.0,2.0,Medium - High (20-40%),Asia,Europe & Central Asia,True
+1594,KEN,Kenya,bws,Tot,0.788210351,128.0,0.0,Low (<10%),Africa,Sub-Saharan Africa,True
+17,KWT,Kuwait,bws,Tot,5.0,4.5,4.0,Extremely High (>80%),Asia,Middle East & North Africa,True
+400,KGZ,Kyrgyzstan,bws,Tot,3.276846479,46.0,3.0,High (40-80%),Asia,Europe & Central Asia,True
+1611,LAO,Laos,bws,Tot,0.741620199,132.0,0.0,Low (<10%),Asia,East Asia & Pacific,True
+1665,LVA,Latvia,bws,Tot,0.571722006,137.0,0.0,Low (<10%),Europe,Europe & Central Asia,True
+23,LBN,Lebanon,bws,Tot,5.0,4.5,4.0,Extremely High (>80%),Asia,Middle East & North Africa,True
+611,LSO,Lesotho,bws,Tot,2.94993564,54.0,2.0,Medium - High (20-40%),Africa,Sub-Saharan Africa,True
+1939,LBR,Liberia,bws,Tot,0.0,181.5,0.0,Low (<10%),Africa,Sub-Saharan Africa,True
+63,LBY,Libya,bws,Tot,4.805210731,13.0,4.0,Extremely High (>80%),Africa,Middle East & North Africa,True
+1579,LIE,Liechtenstein,bws,Tot,0.813133463,125.0,0.0,Low (<10%),Europe,Europe & Central Asia,True
+1077,LTU,Lithuania,bws,Tot,2.139633569,71.0,2.0,Medium - High (20-40%),Europe,Europe & Central Asia,True
+624,LUX,Luxembourg,bws,Tot,2.931524656,55.0,2.0,Medium - High (20-40%),Europe,Europe & Central Asia,True
+571,MKD,Macedonia,bws,Tot,3.009558697,52.0,3.0,High (40-80%),Europe,Europe & Central Asia,True
+1554,MDG,Madagascar,bws,Tot,0.898642942,122.0,0.0,Low (<10%),Africa,Sub-Saharan Africa,True
+1605,MWI,Malawi,bws,Tot,0.75280282,130.0,0.0,Low (<10%),Africa,Sub-Saharan Africa,True
+1524,MYS,Malaysia,bws,Tot,1.032631026,116.0,1.0,Low - Medium (10-20%),Asia,East Asia & Pacific,True
+1633,MLI,Mali,bws,Tot,0.677467506,134.0,0.0,Low (<10%),Africa,Sub-Saharan Africa,True
+2017,MLT,Malta,bws,Tot,-9999.0,-9999.0,-9999.0,NoData,Europe,Middle East & North Africa,False
+761,MRT,Mauritania,bws,Tot,2.727897971,58.0,2.0,Medium - High (20-40%),Africa,Sub-Saharan Africa,True
+2023,MUS,Mauritius,bws,Tot,-9999.0,-9999.0,-9999.0,NoData,Africa,Sub-Saharan Africa,False
+184,MEX,Mexico,bws,Tot,3.995019932,30.0,3.0,High (40-80%),Americas,Latin America & Caribbean,True
+2075,FSM,Micronesia,bws,Tot,-9999.0,-9999.0,-9999.0,NoData,Oceania,East Asia & Pacific,False
+1461,MDA,Moldova,bws,Tot,1.262222811,105.0,1.0,Low - Medium (10-20%),Europe,Europe & Central Asia,True
+481,MNG,Mongolia,bws,Tot,3.128436223,51.0,3.0,High (40-80%),Asia,East Asia & Pacific,True
+1626,MNE,Montenegro,bws,Tot,0.715174797,133.0,0.0,Low (<10%),Europe,Europe & Central Asia,True
+185,MAR,Morocco,bws,Tot,3.988406127,31.0,3.0,High (40-80%),Africa,Middle East & North Africa,True
+1739,MOZ,Mozambique,bws,Tot,0.37050251,147.0,0.0,Low (<10%),Africa,Sub-Saharan Africa,True
+1085,MMR,Myanmar,bws,Tot,2.131153639,72.0,2.0,Medium - High (20-40%),Asia,East Asia & Pacific,True
+137,NAM,Namibia,bws,Tot,4.175797611,24.0,4.0,Extremely High (>80%),Africa,Sub-Saharan Africa,True
+2089,NRU,Nauru,bws,Tot,-9999.0,-9999.0,-9999.0,NoData,Oceania,East Asia & Pacific,False
+441,NPL,Nepal,bws,Tot,3.18229337,48.0,3.0,High (40-80%),Asia,South Asia,True
+1357,NLD,Netherlands,bws,Tot,1.581120297,97.0,1.0,Low - Medium (10-20%),Europe,Europe & Central Asia,True
+1854,NZL,New Zealand,bws,Tot,0.050880091,162.0,0.0,Low (<10%),Oceania,East Asia & Pacific,True
+1782,NIC,Nicaragua,bws,Tot,0.213853504,154.0,0.0,Low (<10%),Americas,Latin America & Caribbean,True
+312,NER,Niger,bws,Tot,3.471298326,42.0,3.0,High (40-80%),Africa,Sub-Saharan Africa,True
+1586,NGA,Nigeria,bws,Tot,0.801556379,127.0,0.0,Low (<10%),Africa,Sub-Saharan Africa,True
+988,PRK,North Korea,bws,Tot,2.322401108,68.0,2.0,Medium - High (20-40%),Asia,East Asia & Pacific,True
+1793,NOR,Norway,bws,Tot,0.188372239,156.0,0.0,Low (<10%),Europe,Europe & Central Asia,True
+29,OMN,Oman,bws,Tot,5.0,4.5,4.0,Extremely High (>80%),Asia,Middle East & North Africa,True
+223,PAK,Pakistan,bws,Tot,3.790570063,35.0,3.0,High (40-80%),Asia,South Asia,True
+2094,PLW,Palau,bws,Tot,-9999.0,-9999.0,-9999.0,NoData,Oceania,East Asia & Pacific,False
+1607,PAN,Panama,bws,Tot,0.745018749,131.0,0.0,Low (<10%),Americas,Latin America & Caribbean,True
+1945,PNG,Papua New Guinea,bws,Tot,0.0,181.5,0.0,Low (<10%),Oceania,East Asia & Pacific,True
+1887,PRY,Paraguay,bws,Tot,0.000343884,170.0,0.0,Low (<10%),Americas,Latin America & Caribbean,True
+234,PER,Peru,bws,Tot,3.743217047,36.0,3.0,High (40-80%),Americas,Latin America & Caribbean,True
+1143,PHL,Philippines,bws,Tot,2.026275245,75.0,2.0,Medium - High (20-40%),Asia,East Asia & Pacific,True
+1311,POL,Poland,bws,Tot,1.65863867,91.0,1.0,Low - Medium (10-20%),Europe,Europe & Central Asia,True
+406,PRT,Portugal,bws,Tot,3.260032396,47.0,3.0,High (40-80%),Europe,Europe & Central Asia,True
+35,QAT,Qatar,bws,Tot,5.0,4.5,4.0,Extremely High (>80%),Asia,Middle East & North Africa,True
+1871,COG,Republic of Congo,bws,Tot,0.014405137,164.0,0.0,Low (<10%),Africa,Sub-Saharan Africa,True
+1484,ROU,Romania,bws,Tot,1.188014819,109.0,1.0,Low - Medium (10-20%),Europe,Europe & Central Asia,True
+1491,RUS,Russia,bws,Tot,1.167592537,111.0,1.0,Low - Medium (10-20%),Europe,Europe & Central Asia,True
+1952,RWA,Rwanda,bws,Tot,0.0,181.5,0.0,Low (<10%),Africa,Sub-Saharan Africa,True
+2009,KNA,Saint Kitts and Nevis,bws,Tot,-9999.0,-9999.0,-9999.0,NoData,Americas,Latin America & Caribbean,False
+2013,LCA,Saint Lucia,bws,Tot,-9999.0,-9999.0,-9999.0,NoData,Americas,Latin America & Caribbean,False
+2052,VCT,Saint Vincent and the Grenadines,bws,Tot,-9999.0,-9999.0,-9999.0,NoData,Americas,Latin America & Caribbean,False
+2060,WSM,Samoa,bws,Tot,-9999.0,-9999.0,-9999.0,NoData,Oceania,East Asia & Pacific,False
+98,SMR,San Marino,bws,Tot,4.449199072,20.0,4.0,Extremely High (>80%),Europe,Europe & Central Asia,True
+45,SAU,Saudi Arabia,bws,Tot,4.980808426,10.0,4.0,Extremely High (>80%),Asia,Middle East & North Africa,True
+1034,SEN,Senegal,bws,Tot,2.220100987,69.0,2.0,Medium - High (20-40%),Africa,Sub-Saharan Africa,True
+1468,SRB,Serbia,bws,Tot,1.235523742,106.0,1.0,Low - Medium (10-20%),Europe,Europe & Central Asia,True
+2103,SYC,Seychelles,bws,Tot,-9999.0,-9999.0,-9999.0,NoData,Africa,Sub-Saharan Africa,False
+1958,SLE,Sierra Leone,bws,Tot,0.0,181.5,0.0,Low (<10%),Africa,Sub-Saharan Africa,True
+2028,SGP,Singapore,bws,Tot,-9999.0,-9999.0,-9999.0,NoData,Asia,East Asia & Pacific,False
+1333,SVK,Slovakia,bws,Tot,1.615225882,94.0,1.0,Low - Medium (10-20%),Europe,Europe & Central Asia,True
+1680,SVN,Slovenia,bws,Tot,0.526117478,142.0,0.0,Low (<10%),Europe,Europe & Central Asia,True
+2033,SLB,Solomon Islands,bws,Tot,-9999.0,-9999.0,-9999.0,NoData,Oceania,East Asia & Pacific,False
+1303,SOM,Somalia,bws,Tot,1.674658334,89.0,1.0,Low - Medium (10-20%),Africa,Sub-Saharan Africa,True
+138,ZAF,South Africa,bws,Tot,4.167753556,25.0,4.0,Extremely High (>80%),Africa,Sub-Saharan Africa,True
+950,KOR,South Korea,bws,Tot,2.381249355,65.0,2.0,Medium - High (20-40%),Asia,East Asia & Pacific,True
+1417,SSD,South Sudan,bws,Tot,1.393236802,101.0,1.0,Low - Medium (10-20%),Africa,Sub-Saharan Africa,True
+198,ESP,Spain,bws,Tot,3.940242667,33.0,3.0,High (40-80%),Europe,Europe & Central Asia,True
+959,LKA,Sri Lanka,bws,Tot,2.361447216,66.0,2.0,Medium - High (20-40%),Asia,South Asia,True
+1393,SDN,Sudan,bws,Tot,1.457958178,98.0,1.0,Low - Medium (10-20%),Africa,Sub-Saharan Africa,True
+1306,SUR,Suriname,bws,Tot,1.667553064,90.0,1.0,Low - Medium (10-20%),Americas,Latin America & Caribbean,True
+1756,SWZ,Swaziland,bws,Tot,0.313848799,151.0,0.0,Low (<10%),Africa,Sub-Saharan Africa,True
+1598,SWE,Sweden,bws,Tot,0.781293393,129.0,0.0,Low (<10%),Europe,Europe & Central Asia,True
+1723,CHE,Switzerland,bws,Tot,0.405618449,145.0,0.0,Low (<10%),Europe,Europe & Central Asia,True
+180,SYR,Syria,bws,Tot,4.013468628,29.0,4.0,Extremely High (>80%),Asia,Middle East & North Africa,True
+2038,STP,SÃ£o TomÃ© and PrÃ­ncipe,bws,Tot,-9999.0,-9999.0,-9999.0,NoData,Africa,Sub-Saharan Africa,False
+974,TJK,Tajikistan,bws,Tot,2.335048113,67.0,2.0,Medium - High (20-40%),Asia,Europe & Central Asia,True
+1201,TZA,Tanzania,bws,Tot,1.90521696,81.0,1.0,Low - Medium (10-20%),Africa,Sub-Saharan Africa,True
+269,THA,Thailand,bws,Tot,3.623007642,39.0,3.0,High (40-80%),Asia,East Asia & Pacific,True
+1266,TLS,Timor-Leste,bws,Tot,1.772192187,88.0,1.0,Low - Medium (10-20%),Asia,East Asia & Pacific,True
+1884,TGO,Togo,bws,Tot,0.003242327,169.0,0.0,Low (<10%),Africa,Sub-Saharan Africa,True
+2043,TON,Tonga,bws,Tot,-9999.0,-9999.0,-9999.0,NoData,Oceania,East Asia & Pacific,False
+2046,TTO,Trinidad and Tobago,bws,Tot,-9999.0,-9999.0,-9999.0,NoData,Americas,Latin America & Caribbean,False
+122,TUN,Tunisia,bws,Tot,4.280358914,23.0,4.0,Extremely High (>80%),Africa,Middle East & North Africa,True
+349,TUR,Turkey,bws,Tot,3.386483429,43.0,3.0,High (40-80%),Asia,Europe & Central Asia,True
+236,TKM,Turkmenistan,bws,Tot,3.73812683,37.0,3.0,High (40-80%),Asia,Europe & Central Asia,True
+2112,TUV,Tuvalu,bws,Tot,-9999.0,-9999.0,-9999.0,NoData,Oceania,East Asia & Pacific,False
+1789,UGA,Uganda,bws,Tot,0.198089531,155.0,0.0,Low (<10%),Africa,Sub-Saharan Africa,True
+1422,UKR,Ukraine,bws,Tot,1.372503853,102.0,1.0,Low - Medium (10-20%),Europe,Europe & Central Asia,True
+41,ARE,United Arab Emirates,bws,Tot,4.999991212,9.0,4.0,Extremely High (>80%),Asia,Middle East & North Africa,True
+1451,GBR,United Kingdom,bws,Tot,1.298003739,104.0,1.0,Low - Medium (10-20%),Europe,Europe & Central Asia,True
+834,USA,United States,bws,Tot,2.604411175,62.0,2.0,Medium - High (20-40%),Americas,North America,True
+1241,URY,Uruguay,bws,Tot,1.832983309,86.0,1.0,Low - Medium (10-20%),Americas,Latin America & Caribbean,True
+266,UZB,Uzbekistan,bws,Tot,3.628291849,38.0,3.0,High (40-80%),Asia,Europe & Central Asia,True
+2056,VUT,Vanuatu,bws,Tot,-9999.0,-9999.0,-9999.0,NoData,Oceania,East Asia & Pacific,False
+1251,VEN,Venezuela,bws,Tot,1.820253759,87.0,1.0,Low - Medium (10-20%),Americas,Latin America & Caribbean,True
+1096,VNM,Vietnam,bws,Tot,2.112769594,73.0,2.0,Medium - High (20-40%),Asia,East Asia & Pacific,True
+74,YEM,Yemen,bws,Tot,4.693675833,14.0,4.0,Extremely High (>80%),Asia,Middle East & North Africa,True
+1565,ZMB,Zambia,bws,Tot,0.84556736,124.0,0.0,Low (<10%),Africa,Sub-Saharan Africa,True
+1050,ZWE,Zimbabwe,bws,Tot,2.174587686,70.0,2.0,Medium - High (20-40%),Africa,Sub-Saharan Africa,True
