@@ -1,0 +1,9 @@
+# AI provenance matrix – Member 4 rows
+
+Paste these into the group matrix. **Edit "what was asked" and "how verified" so they describe only what you actually did and saw.**
+
+| # | Artefact | Who | Tool | What was asked | What came back | How it was verified (a check that could have failed) | Outcome |
+|---|---|---|---|---|---|---|---|
+| M4-1 | `scripts/m4_process.py` | Harsh (M4) | Claude (Anthropic), Cowork | Inspect the Aqueduct 4.0 workbook; write a script turning `country_baseline` into one row per country with water stress, drought risk and flood risk | A pandas script with transforms T1–T5. Its first version used `pivot_table(dropna=False)`, which produced 1,276,800 rows instead of 192 | (a) Row count must equal the number of unique `gid_0` (192). **This failed on the first version**, which was then fixed. (b) Built-in assertion that `cat == floor(score)` for every row. (c) Checked by hand that `-9999` became blank, not 0, for Canada's drought score. (d) Compared Ireland, UK and India in the processed CSV against the original xlsx rows | Accepted after fix |
+| M4-2 | Indicator choice for the dashboard | Harsh (M4) | Claude | Check whether the file supports the planned "seasonal / interannual variability" scatter | The country file has only `bws`, `drr`, `rfr`, with no variability indicators. Claude suggested drought risk (unused by other members) | Listed `indicator_name × weight` counts in the workbook myself; confirmed no `sev`/`iav` rows in either country sheet | Dashboard changed to stress vs drought risk; team told |
+| M4-3 | `dashboards/m4_stress_vs_drought.py` | Harsh (M4) | Claude | Build a Streamlit scatter with region filter, indicator switch, labels, table, empty state, trace panel | Streamlit + Altair app | Ran at 1366×768: no horizontal scroll; cleared all regions and saw the "No region selected" message instead of an error; recomputed "65 of 86" independently in pandas (`bws<2` and `drr>=2`) | Accepted |
