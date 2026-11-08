@@ -1,0 +1,193 @@
+iso3,country,un_region,wb_region,bws_score,bws_cat,bws_label,drr_score,drr_cat,drr_label,rfr_score,rfr_cat,rfr_label,low_stress_elevated_drought
+AFG,Afghanistan,Asia,South Asia,3.369185991,3,High (40-80%),2.838686,2,Medium (0.4-0.6),4.268904463,4,Extremely High (more than 1 in 100),False
+AGO,Angola,Africa,Sub-Saharan Africa,1.130789734,1,Low - Medium (10-20%),1.867009335,1,Low - Medium (0.2-0.4),0.81134321,0,"Low (0 to 2 in 1,000)",False
+ALB,Albania,Europe,Europe & Central Asia,3.473828698,3,High (40-80%),2.3647478,2,Medium (0.4-0.6),2.343377038,2,"Medium - High (4 in 1,000 to 8 in 1,000)",False
+AND,Andorra,Europe,Europe & Central Asia,3.544997224,3,High (40-80%),,,NoData,0.0,0,"Low (0 to 2 in 1,000)",
+ARE,United Arab Emirates,Asia,Middle East & North Africa,4.999991212,4,Extremely High (>80%),,,NoData,3.412390253,3,"High (8 in 1,000 to 1 in 100)",
+ARG,Argentina,Americas,Latin America & Caribbean,1.834917254,1,Low - Medium (10-20%),2.528911905,2,Medium (0.4-0.6),1.628398117,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",True
+ARM,Armenia,Asia,Europe & Central Asia,2.9915904,2,Medium - High (20-40%),2.243007875,2,Medium (0.4-0.6),2.141103651,2,"Medium - High (4 in 1,000 to 8 in 1,000)",False
+ATG,Antigua and Barbuda,Americas,Latin America & Caribbean,,,NoData,,,NoData,,,NoData,
+AUS,Australia,Oceania,East Asia & Pacific,2.906718433,2,Medium - High (20-40%),1.80087136,1,Low - Medium (0.2-0.4),1.589633919,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",False
+AUT,Austria,Europe,Europe & Central Asia,0.26150335,0,Low (<10%),2.220543905,2,Medium (0.4-0.6),0.83167214,0,"Low (0 to 2 in 1,000)",True
+AZE,Azerbaijan,Asia,Europe & Central Asia,2.468350889,2,Medium - High (20-40%),3.129058215,3,Medium - High (0.6-0.8),2.5472231,2,"Medium - High (4 in 1,000 to 8 in 1,000)",False
+BDI,Burundi,Africa,Sub-Saharan Africa,0.0,0,Low (<10%),3.087277805,3,Medium - High (0.6-0.8),3.105248845,3,"High (8 in 1,000 to 1 in 100)",True
+BEL,Belgium,Europe,Europe & Central Asia,4.410841962,4,Extremely High (>80%),2.52708756,2,Medium (0.4-0.6),0.983081376,0,"Low (0 to 2 in 1,000)",False
+BEN,Benin,Africa,Sub-Saharan Africa,0.003432064,0,Low (<10%),2.85717444,2,Medium (0.4-0.6),3.129224602,3,"High (8 in 1,000 to 1 in 100)",True
+BFA,Burkina Faso,Africa,Sub-Saharan Africa,1.646041049,1,Low - Medium (10-20%),2.82665289,2,Medium (0.4-0.6),2.106289422,2,"Medium - High (4 in 1,000 to 8 in 1,000)",True
+BGD,Bangladesh,Asia,South Asia,2.660561137,2,Medium - High (20-40%),3.95454608,3,Medium - High (0.6-0.8),4.643022258,4,Extremely High (more than 1 in 100),False
+BGR,Bulgaria,Europe,Europe & Central Asia,1.45732336,1,Low - Medium (10-20%),3.155709875,3,Medium - High (0.6-0.8),0.818662671,0,"Low (0 to 2 in 1,000)",True
+BHR,Bahrain,Asia,Middle East & North Africa,5.0,4,Extremely High (>80%),,,NoData,0.177025673,0,"Low (0 to 2 in 1,000)",
+BHS,Bahamas,Americas,Latin America & Caribbean,,,NoData,,,NoData,,,NoData,
+BIH,Bosnia and Herzegovina,Europe,Europe & Central Asia,0.395887518,0,Low (<10%),3.174095535,3,Medium - High (0.6-0.8),2.075005444,2,"Medium - High (4 in 1,000 to 8 in 1,000)",True
+BLR,Belarus,Europe,Europe & Central Asia,1.180970816,1,Low - Medium (10-20%),3.323381645,3,Medium - High (0.6-0.8),1.121915206,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",True
+BLZ,Belize,Americas,Latin America & Caribbean,0.068201146,0,Low (<10%),,,NoData,3.141656543,3,"High (8 in 1,000 to 1 in 100)",
+BOL,Bolivia,Americas,Latin America & Caribbean,0.155531505,0,Low (<10%),1.8343923,1,Low - Medium (0.2-0.4),2.716854893,2,"Medium - High (4 in 1,000 to 8 in 1,000)",False
+BRA,Brazil,Americas,Latin America & Caribbean,1.037909741,1,Low - Medium (10-20%),2.533453435,2,Medium (0.4-0.6),1.624863181,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",True
+BRB,Barbados,Americas,Latin America & Caribbean,,,NoData,,,NoData,,,NoData,
+BRN,Brunei,Asia,East Asia & Pacific,0.0,0,Low (<10%),,,NoData,1.016926967,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",
+BTN,Bhutan,Asia,South Asia,0.367776177,0,Low (<10%),1.85837139,1,Low - Medium (0.2-0.4),3.09987495,3,"High (8 in 1,000 to 1 in 100)",False
+BWA,Botswana,Africa,Sub-Saharan Africa,4.664307436,4,Extremely High (>80%),2.217199745,2,Medium (0.4-0.6),0.851381699,0,"Low (0 to 2 in 1,000)",False
+CAF,Central African Republic,Africa,Sub-Saharan Africa,0.010127157,0,Low (<10%),1.19454456,1,Low - Medium (0.2-0.4),3.385400914,3,"High (8 in 1,000 to 1 in 100)",False
+CAN,Canada,Americas,North America,1.233315456,1,Low - Medium (10-20%),,,NoData,2.245164121,2,"Medium - High (4 in 1,000 to 8 in 1,000)",
+CHE,Switzerland,Europe,Europe & Central Asia,0.405618449,0,Low (<10%),1.9412985,1,Low - Medium (0.2-0.4),0.427347948,0,"Low (0 to 2 in 1,000)",False
+CHL,Chile,Americas,Latin America & Caribbean,4.471868674,4,Extremely High (>80%),2.02350777,2,Medium (0.4-0.6),1.040572805,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",False
+CHN,China,Asia,East Asia & Pacific,2.800257843,2,Medium - High (20-40%),3.03684769,3,Medium - High (0.6-0.8),1.987883277,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",False
+CIV,Côte d'Ivoire,Africa,Sub-Saharan Africa,0.0,0,Low (<10%),2.965271665,2,Medium (0.4-0.6),2.401189412,2,"Medium - High (4 in 1,000 to 8 in 1,000)",True
+CMR,Cameroon,Africa,Sub-Saharan Africa,0.008131338,0,Low (<10%),1.398330155,1,Low - Medium (0.2-0.4),2.773065813,2,"Medium - High (4 in 1,000 to 8 in 1,000)",False
+COD,Democratic Republic of the Congo,Africa,Sub-Saharan Africa,0.012159601,0,Low (<10%),1.86949397,1,Low - Medium (0.2-0.4),3.107798964,3,"High (8 in 1,000 to 1 in 100)",False
+COG,Republic of Congo,Africa,Sub-Saharan Africa,0.014405137,0,Low (<10%),1.107005155,1,Low - Medium (0.2-0.4),2.603793459,2,"Medium - High (4 in 1,000 to 8 in 1,000)",False
+COL,Colombia,Americas,Latin America & Caribbean,0.496141456,0,Low (<10%),2.050606065,2,Medium (0.4-0.6),1.104787465,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",True
+COM,Comoros,Africa,Sub-Saharan Africa,,,NoData,,,NoData,,,NoData,
+CPV,Cape Verde,Africa,Sub-Saharan Africa,,,NoData,,,NoData,,,,
+CRI,Costa Rica,Americas,Latin America & Caribbean,0.648226696,0,Low (<10%),1.986112915,1,Low - Medium (0.2-0.4),1.348706416,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",False
+CUB,Cuba,Americas,Latin America & Caribbean,1.650924902,1,Low - Medium (10-20%),3.318887255,3,Medium - High (0.6-0.8),3.009946447,3,"High (8 in 1,000 to 1 in 100)",True
+CYP,Cyprus,Asia,Europe & Central Asia,5.0,4,Extremely High (>80%),2.49572287,2,Medium (0.4-0.6),0.89935695,0,"Low (0 to 2 in 1,000)",False
+CZE,Czech Republic,Europe,Europe & Central Asia,1.835970493,1,Low - Medium (10-20%),3.06104583,3,Medium - High (0.6-0.8),0.526419424,0,"Low (0 to 2 in 1,000)",True
+DEU,Germany,Europe,Europe & Central Asia,2.041904513,2,Medium - High (20-40%),2.768956395,2,Medium (0.4-0.6),0.520744196,0,"Low (0 to 2 in 1,000)",False
+DJI,Djibouti,Africa,Middle East & North Africa,3.175518835,3,High (40-80%),1.687404525,1,Low - Medium (0.2-0.4),4.185922177,4,Extremely High (more than 1 in 100),False
+DMA,Dominica,Americas,Latin America & Caribbean,,,NoData,,,NoData,,,NoData,
+DNK,Denmark,Europe,Europe & Central Asia,0.951421243,0,Low (<10%),3.16564955,3,Medium - High (0.6-0.8),1.320225767,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",True
+DOM,Dominican Republic,Americas,Latin America & Caribbean,1.604479359,1,Low - Medium (10-20%),3.308417515,3,Medium - High (0.6-0.8),1.153499917,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",True
+DZA,Algeria,Africa,Middle East & North Africa,3.873999102,3,High (40-80%),,,NoData,1.931800122,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",
+ECU,Ecuador,Americas,Latin America & Caribbean,0.6573219,0,Low (<10%),2.61530902,2,Medium (0.4-0.6),2.094648411,2,"Medium - High (4 in 1,000 to 8 in 1,000)",True
+EGY,Egypt,Africa,Middle East & North Africa,4.851625216,4,Extremely High (>80%),,,NoData,4.056823831,4,Extremely High (more than 1 in 100),
+ERI,Eritrea,Africa,Sub-Saharan Africa,3.942539986,3,High (40-80%),2.320886595,2,Medium (0.4-0.6),3.892682147,3,"High (8 in 1,000 to 1 in 100)",False
+ESP,Spain,Europe,Europe & Central Asia,3.940242667,3,High (40-80%),2.97357657,2,Medium (0.4-0.6),0.816565704,0,"Low (0 to 2 in 1,000)",False
+EST,Estonia,Europe,Europe & Central Asia,1.218060312,1,Low - Medium (10-20%),2.609225565,2,Medium (0.4-0.6),1.32330111,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",True
+ETH,Ethiopia,Africa,Sub-Saharan Africa,0.961237436,0,Low (<10%),2.530258,2,Medium (0.4-0.6),3.027126032,3,"High (8 in 1,000 to 1 in 100)",True
+FIN,Finland,Europe,Europe & Central Asia,0.80862528,0,Low (<10%),1.82366301,1,Low - Medium (0.2-0.4),2.638028513,2,"Medium - High (4 in 1,000 to 8 in 1,000)",False
+FJI,Fiji,Oceania,East Asia & Pacific,,,NoData,,,NoData,,,NoData,
+FRA,France,Europe,Europe & Central Asia,1.916452159,1,Low - Medium (10-20%),3.013633885,3,Medium - High (0.6-0.8),0.828877528,0,"Low (0 to 2 in 1,000)",True
+FSM,Micronesia,Oceania,East Asia & Pacific,,,NoData,,,NoData,,,NoData,
+GAB,Gabon,Africa,Sub-Saharan Africa,0.0,0,Low (<10%),1.470653455,1,Low - Medium (0.2-0.4),3.037979308,3,"High (8 in 1,000 to 1 in 100)",False
+GBR,United Kingdom,Europe,Europe & Central Asia,1.298003739,1,Low - Medium (10-20%),3.014101605,3,Medium - High (0.6-0.8),0.565270563,0,"Low (0 to 2 in 1,000)",True
+GEO,Georgia,Asia,Europe & Central Asia,0.928146972,0,Low (<10%),2.365794105,2,Medium (0.4-0.6),4.003884947,4,Extremely High (more than 1 in 100),True
+GHA,Ghana,Africa,Sub-Saharan Africa,0.112402618,0,Low (<10%),3.045830385,3,Medium - High (0.6-0.8),3.270727742,3,"High (8 in 1,000 to 1 in 100)",True
+GIN,Guinea,Africa,Sub-Saharan Africa,0.355084919,0,Low (<10%),1.912589305,1,Low - Medium (0.2-0.4),3.214458023,3,"High (8 in 1,000 to 1 in 100)",False
+GMB,Gambia,Africa,Sub-Saharan Africa,0.024514391,0,Low (<10%),2.174840695,2,Medium (0.4-0.6),3.158545939,3,"High (8 in 1,000 to 1 in 100)",True
+GNB,Guinea-Bissau,Africa,Sub-Saharan Africa,0.307489251,0,Low (<10%),2.44416005,2,Medium (0.4-0.6),4.044614204,4,Extremely High (more than 1 in 100),True
+GNQ,Equatorial Guinea,Africa,Sub-Saharan Africa,0.0,0,Low (<10%),1.26204411,1,Low - Medium (0.2-0.4),2.005878594,2,"Medium - High (4 in 1,000 to 8 in 1,000)",False
+GRC,Greece,Europe,Europe & Central Asia,4.338904439,4,Extremely High (>80%),2.64052222,2,Medium (0.4-0.6),1.711805576,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",False
+GRD,Grenada,Americas,Latin America & Caribbean,,,NoData,,,NoData,,,NoData,
+GTM,Guatemala,Americas,Latin America & Caribbean,1.026662175,1,Low - Medium (10-20%),2.86202084,2,Medium (0.4-0.6),3.512712615,3,"High (8 in 1,000 to 1 in 100)",True
+GUY,Guyana,Americas,Latin America & Caribbean,2.695733857,2,Medium - High (20-40%),2.31360249,2,Medium (0.4-0.6),4.1271536,4,Extremely High (more than 1 in 100),False
+HND,Honduras,Americas,Latin America & Caribbean,0.112622036,0,Low (<10%),2.707179885,2,Medium (0.4-0.6),3.526616315,3,"High (8 in 1,000 to 1 in 100)",True
+HRV,Croatia,Europe,Europe & Central Asia,0.167654501,0,Low (<10%),3.084304835,3,Medium - High (0.6-0.8),1.175193609,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",True
+HTI,Haiti,Americas,Latin America & Caribbean,1.602577632,1,Low - Medium (10-20%),3.641886935,3,Medium - High (0.6-0.8),0.791358964,0,"Low (0 to 2 in 1,000)",True
+HUN,Hungary,Europe,Europe & Central Asia,0.425174735,0,Low (<10%),3.36644788,3,Medium - High (0.6-0.8),2.239910776,2,"Medium - High (4 in 1,000 to 8 in 1,000)",True
+IDN,Indonesia,Asia,East Asia & Pacific,2.669162882,2,Medium - High (20-40%),3.638001465,3,Medium - High (0.6-0.8),4.157848588,4,Extremely High (more than 1 in 100),False
+IND,India,Asia,South Asia,4.107794474,4,Extremely High (>80%),3.800612155,3,Medium - High (0.6-0.8),3.133896244,3,"High (8 in 1,000 to 1 in 100)",False
+IRL,Ireland,Europe,Europe & Central Asia,0.363338153,0,Low (<10%),2.61739227,2,Medium (0.4-0.6),1.39562074,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",True
+IRN,Iran,Asia,Middle East & North Africa,4.653368575,4,Extremely High (>80%),2.879745965,2,Medium (0.4-0.6),1.84082625,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",False
+IRQ,Iraq,Asia,Middle East & North Africa,4.146234505,4,Extremely High (>80%),,,NoData,3.400285303,3,"High (8 in 1,000 to 1 in 100)",
+ISL,Iceland,Europe,Europe & Central Asia,0.0,0,Low (<10%),0.55302843,0,Low (0.0-0.2),1.459558784,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",False
+ISR,Israel,Asia,Middle East & North Africa,4.941652066,4,Extremely High (>80%),,,NoData,0.090269752,0,"Low (0 to 2 in 1,000)",
+ITA,Italy,Europe,Europe & Central Asia,3.344018796,3,High (40-80%),3.09258794,3,Medium - High (0.6-0.8),1.104594595,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",False
+JAM,Jamaica,Americas,Latin America & Caribbean,0.0,0,Low (<10%),2.93349781,2,Medium (0.4-0.6),0.861368175,0,"Low (0 to 2 in 1,000)",True
+JOR,Jordan,Asia,Middle East & North Africa,4.619580866,4,Extremely High (>80%),,,NoData,0.335119688,0,"Low (0 to 2 in 1,000)",
+JPN,Japan,Asia,East Asia & Pacific,1.967749978,1,Low - Medium (10-20%),2.05630799,2,Medium (0.4-0.6),0.95985365,0,"Low (0 to 2 in 1,000)",True
+KAZ,Kazakhstan,Asia,Europe & Central Asia,2.511560337,2,Medium - High (20-40%),2.49794773,2,Medium (0.4-0.6),1.600860534,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",False
+KEN,Kenya,Africa,Sub-Saharan Africa,0.788210351,0,Low (<10%),3.015458785,3,Medium - High (0.6-0.8),4.031405135,4,Extremely High (more than 1 in 100),True
+KGZ,Kyrgyzstan,Asia,Europe & Central Asia,3.276846479,3,High (40-80%),2.826939875,2,Medium (0.4-0.6),4.309121318,4,Extremely High (more than 1 in 100),False
+KHM,Cambodia,Asia,East Asia & Pacific,1.87051284,1,Low - Medium (10-20%),3.62552531,3,Medium - High (0.6-0.8),4.461401359,4,Extremely High (more than 1 in 100),True
+KIR,KIR,Oceania,East Asia & Pacific,,,,,,,,,NoData,
+KNA,Saint Kitts and Nevis,Americas,Latin America & Caribbean,,,NoData,,,NoData,,,NoData,
+KOR,South Korea,Asia,East Asia & Pacific,2.381249355,2,Medium - High (20-40%),1.78575865,1,Low - Medium (0.2-0.4),0.599077532,0,"Low (0 to 2 in 1,000)",False
+KWT,Kuwait,Asia,Middle East & North Africa,5.0,4,Extremely High (>80%),,,NoData,2.278464124,2,"Medium - High (4 in 1,000 to 8 in 1,000)",
+LAO,Laos,Asia,East Asia & Pacific,0.741620199,0,Low (<10%),1.893682,1,Low - Medium (0.2-0.4),4.184712692,4,Extremely High (more than 1 in 100),False
+LBN,Lebanon,Asia,Middle East & North Africa,5.0,4,Extremely High (>80%),3.24031969,3,Medium - High (0.6-0.8),4.058835993,4,Extremely High (more than 1 in 100),False
+LBR,Liberia,Africa,Sub-Saharan Africa,0.0,0,Low (<10%),1.556526885,1,Low - Medium (0.2-0.4),4.793889994,4,Extremely High (more than 1 in 100),False
+LBY,Libya,Africa,Middle East & North Africa,4.805210731,4,Extremely High (>80%),,,NoData,3.659899624,3,"High (8 in 1,000 to 1 in 100)",
+LCA,Saint Lucia,Americas,Latin America & Caribbean,,,NoData,,,NoData,,,NoData,
+LIE,Liechtenstein,Europe,Europe & Central Asia,0.813133463,0,Low (<10%),,,NoData,3.817457696,3,"High (8 in 1,000 to 1 in 100)",
+LKA,Sri Lanka,Asia,South Asia,2.361447216,2,Medium - High (20-40%),3.07940578,3,Medium - High (0.6-0.8),4.019451628,4,Extremely High (more than 1 in 100),False
+LSO,Lesotho,Africa,Sub-Saharan Africa,2.94993564,2,Medium - High (20-40%),2.8474366,2,Medium (0.4-0.6),1.391868787,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",False
+LTU,Lithuania,Europe,Europe & Central Asia,2.139633569,2,Medium - High (20-40%),3.392873405,3,Medium - High (0.6-0.8),0.729059862,0,"Low (0 to 2 in 1,000)",False
+LUX,Luxembourg,Europe,Europe & Central Asia,2.931524656,2,Medium - High (20-40%),1.655550765,1,Low - Medium (0.2-0.4),0.287466829,0,"Low (0 to 2 in 1,000)",False
+LVA,Latvia,Europe,Europe & Central Asia,0.571722006,0,Low (<10%),2.977109295,2,Medium (0.4-0.6),1.20496139,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",True
+MAR,Morocco,Africa,Middle East & North Africa,3.988406127,3,High (40-80%),3.665854775,3,Medium - High (0.6-0.8),3.587518571,3,"High (8 in 1,000 to 1 in 100)",False
+MCO,MCO,Europe,Europe & Central Asia,,,,,,,,,NoData,
+MDA,Moldova,Europe,Europe & Central Asia,1.262222811,1,Low - Medium (10-20%),4.08090716,4,High (0.8-1.0),2.850760193,2,"Medium - High (4 in 1,000 to 8 in 1,000)",True
+MDG,Madagascar,Africa,Sub-Saharan Africa,0.898642942,0,Low (<10%),2.11250934,2,Medium (0.4-0.6),4.117547783,4,Extremely High (more than 1 in 100),True
+MEX,Mexico,Americas,Latin America & Caribbean,3.995019932,3,High (40-80%),2.62931722,2,Medium (0.4-0.6),2.093034654,2,"Medium - High (4 in 1,000 to 8 in 1,000)",False
+MHL,MHL,Oceania,East Asia & Pacific,,,,,,,,,NoData,
+MKD,Macedonia,Europe,Europe & Central Asia,3.009558697,3,High (40-80%),3.2907369,3,Medium - High (0.6-0.8),2.04890484,2,"Medium - High (4 in 1,000 to 8 in 1,000)",False
+MLI,Mali,Africa,Sub-Saharan Africa,0.677467506,0,Low (<10%),,,NoData,4.054416008,4,Extremely High (more than 1 in 100),
+MLT,Malta,Europe,Middle East & North Africa,,,NoData,,,NoData,,,NoData,
+MMR,Myanmar,Asia,East Asia & Pacific,2.131153639,2,Medium - High (20-40%),,,NoData,4.402091656,4,Extremely High (more than 1 in 100),
+MNE,Montenegro,Europe,Europe & Central Asia,0.715174797,0,Low (<10%),2.32534893,2,Medium (0.4-0.6),2.292466342,2,"Medium - High (4 in 1,000 to 8 in 1,000)",True
+MNG,Mongolia,Asia,East Asia & Pacific,3.128436223,3,High (40-80%),2.11578932,2,Medium (0.4-0.6),3.662612856,3,"High (8 in 1,000 to 1 in 100)",False
+MOZ,Mozambique,Africa,Sub-Saharan Africa,0.37050251,0,Low (<10%),2.140937735,2,Medium (0.4-0.6),4.058069422,4,Extremely High (more than 1 in 100),True
+MRT,Mauritania,Africa,Sub-Saharan Africa,2.727897971,2,Medium - High (20-40%),,,NoData,4.841143914,4,Extremely High (more than 1 in 100),
+MUS,Mauritius,Africa,Sub-Saharan Africa,,,NoData,,,NoData,,,,
+MWI,Malawi,Africa,Sub-Saharan Africa,0.75280282,0,Low (<10%),2.718335425,2,Medium (0.4-0.6),4.046766363,4,Extremely High (more than 1 in 100),True
+MYS,Malaysia,Asia,East Asia & Pacific,1.032631026,1,Low - Medium (10-20%),2.484837365,2,Medium (0.4-0.6),2.404943427,2,"Medium - High (4 in 1,000 to 8 in 1,000)",True
+NAM,Namibia,Africa,Sub-Saharan Africa,4.175797611,4,Extremely High (>80%),1.517327185,1,Low - Medium (0.2-0.4),1.590315066,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",False
+NER,Niger,Africa,Sub-Saharan Africa,3.471298326,3,High (40-80%),,,NoData,3.679631002,3,"High (8 in 1,000 to 1 in 100)",
+NGA,Nigeria,Africa,Sub-Saharan Africa,0.801556379,0,Low (<10%),2.28800455,2,Medium (0.4-0.6),2.776766346,2,"Medium - High (4 in 1,000 to 8 in 1,000)",True
+NIC,Nicaragua,Americas,Latin America & Caribbean,0.213853504,0,Low (<10%),3.082992555,3,Medium - High (0.6-0.8),2.995826159,2,"Medium - High (4 in 1,000 to 8 in 1,000)",True
+NLD,Netherlands,Europe,Europe & Central Asia,1.581120297,1,Low - Medium (10-20%),2.410525165,2,Medium (0.4-0.6),0.156661462,0,"Low (0 to 2 in 1,000)",True
+NOR,Norway,Europe,Europe & Central Asia,0.188372239,0,Low (<10%),0.624842935,0,Low (0.0-0.2),2.857743481,2,"Medium - High (4 in 1,000 to 8 in 1,000)",False
+NPL,Nepal,Asia,South Asia,3.18229337,3,High (40-80%),2.77358308,2,Medium (0.4-0.6),3.78238305,3,"High (8 in 1,000 to 1 in 100)",False
+NRU,Nauru,Oceania,East Asia & Pacific,,,NoData,,,NoData,,,NoData,
+NZL,New Zealand,Oceania,East Asia & Pacific,0.050880091,0,Low (<10%),2.07615692,2,Medium (0.4-0.6),2.332007987,2,"Medium - High (4 in 1,000 to 8 in 1,000)",True
+OMN,Oman,Asia,Middle East & North Africa,5.0,4,Extremely High (>80%),,,NoData,2.929035138,2,"Medium - High (4 in 1,000 to 8 in 1,000)",
+PAK,Pakistan,Asia,South Asia,3.790570063,3,High (40-80%),3.360329715,3,Medium - High (0.6-0.8),3.261080485,3,"High (8 in 1,000 to 1 in 100)",False
+PAN,Panama,Americas,Latin America & Caribbean,0.745018749,0,Low (<10%),2.131049075,2,Medium (0.4-0.6),3.008486197,3,"High (8 in 1,000 to 1 in 100)",True
+PER,Peru,Americas,Latin America & Caribbean,3.743217047,3,High (40-80%),2.3334373,2,Medium (0.4-0.6),2.951226705,2,"Medium - High (4 in 1,000 to 8 in 1,000)",False
+PHL,Philippines,Asia,East Asia & Pacific,2.026275245,2,Medium - High (20-40%),2.86569811,2,Medium (0.4-0.6),3.08478482,3,"High (8 in 1,000 to 1 in 100)",False
+PLW,Palau,Oceania,East Asia & Pacific,,,NoData,,,NoData,,,NoData,
+PNG,Papua New Guinea,Oceania,East Asia & Pacific,0.0,0,Low (<10%),,,NoData,4.043224096,4,Extremely High (more than 1 in 100),
+POL,Poland,Europe,Europe & Central Asia,1.65863867,1,Low - Medium (10-20%),3.43199257,3,Medium - High (0.6-0.8),0.545165738,0,"Low (0 to 2 in 1,000)",True
+PRK,North Korea,Asia,East Asia & Pacific,2.322401108,2,Medium - High (20-40%),3.168870555,3,Medium - High (0.6-0.8),4.050354699,4,Extremely High (more than 1 in 100),False
+PRT,Portugal,Europe,Europe & Central Asia,3.260032396,3,High (40-80%),2.920869715,2,Medium (0.4-0.6),0.724555952,0,"Low (0 to 2 in 1,000)",False
+PRY,Paraguay,Americas,Latin America & Caribbean,0.000343884,0,Low (<10%),2.87331713,2,Medium (0.4-0.6),1.322072281,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",True
+QAT,Qatar,Asia,Middle East & North Africa,5.0,4,Extremely High (>80%),,,NoData,0.389484803,0,"Low (0 to 2 in 1,000)",
+ROU,Romania,Europe,Europe & Central Asia,1.188014819,1,Low - Medium (10-20%),3.64040597,3,Medium - High (0.6-0.8),2.052807941,2,"Medium - High (4 in 1,000 to 8 in 1,000)",True
+RUS,Russia,Europe,Europe & Central Asia,1.167592537,1,Low - Medium (10-20%),2.338164235,2,Medium (0.4-0.6),1.094355737,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",True
+RWA,Rwanda,Africa,Sub-Saharan Africa,0.0,0,Low (<10%),3.29587581,3,Medium - High (0.6-0.8),4.114553101,4,Extremely High (more than 1 in 100),True
+SAU,Saudi Arabia,Asia,Middle East & North Africa,4.980808426,4,Extremely High (>80%),,,NoData,0.941247328,0,"Low (0 to 2 in 1,000)",
+SDN,Sudan,Africa,Sub-Saharan Africa,1.457958178,1,Low - Medium (10-20%),,,NoData,3.982389561,3,"High (8 in 1,000 to 1 in 100)",
+SEN,Senegal,Africa,Sub-Saharan Africa,2.220100987,2,Medium - High (20-40%),0.759330915,0,Low (0.0-0.2),3.931731688,3,"High (8 in 1,000 to 1 in 100)",False
+SGP,Singapore,Asia,East Asia & Pacific,,,NoData,,,NoData,,,NoData,
+SLB,Solomon Islands,Oceania,East Asia & Pacific,,,NoData,,,NoData,,,NoData,
+SLE,Sierra Leone,Africa,Sub-Saharan Africa,0.0,0,Low (<10%),1.69727449,1,Low - Medium (0.2-0.4),4.049457129,4,Extremely High (more than 1 in 100),False
+SLV,El Salvador,Americas,Latin America & Caribbean,1.947996154,1,Low - Medium (10-20%),2.892252325,2,Medium (0.4-0.6),2.499945388,2,"Medium - High (4 in 1,000 to 8 in 1,000)",True
+SMR,San Marino,Europe,Europe & Central Asia,4.449199072,4,Extremely High (>80%),,,NoData,0.0,0,"Low (0 to 2 in 1,000)",
+SOM,Somalia,Africa,Sub-Saharan Africa,1.674658334,1,Low - Medium (10-20%),2.41188633,2,Medium (0.4-0.6),5.0,4,Extremely High (more than 1 in 100),True
+SRB,Serbia,Europe,Europe & Central Asia,1.235523742,1,Low - Medium (10-20%),3.7623111,3,Medium - High (0.6-0.8),2.341911352,2,"Medium - High (4 in 1,000 to 8 in 1,000)",True
+SSD,South Sudan,Africa,Sub-Saharan Africa,1.393236802,1,Low - Medium (10-20%),1.88389478,1,Low - Medium (0.2-0.4),4.35345503,4,Extremely High (more than 1 in 100),False
+STP,São Tomé and Príncipe,Africa,Sub-Saharan Africa,,,NoData,,,NoData,,,NoData,
+SUR,Suriname,Americas,Latin America & Caribbean,1.667553064,1,Low - Medium (10-20%),1.26156873,1,Low - Medium (0.2-0.4),4.016527426,4,Extremely High (more than 1 in 100),False
+SVK,Slovakia,Europe,Europe & Central Asia,1.615225882,1,Low - Medium (10-20%),3.20454985,3,Medium - High (0.6-0.8),1.448087198,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",True
+SVN,Slovenia,Europe,Europe & Central Asia,0.526117478,0,Low (<10%),2.143194755,2,Medium (0.4-0.6),1.417806317,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",True
+SWE,Sweden,Europe,Europe & Central Asia,0.781293393,0,Low (<10%),1.553504005,1,Low - Medium (0.2-0.4),2.34570146,2,"Medium - High (4 in 1,000 to 8 in 1,000)",False
+SWZ,Swaziland,Africa,Sub-Saharan Africa,0.313848799,0,Low (<10%),2.43322481,2,Medium (0.4-0.6),2.009500327,2,"Medium - High (4 in 1,000 to 8 in 1,000)",True
+SYC,Seychelles,Africa,Sub-Saharan Africa,,,NoData,,,NoData,,,NoData,
+SYR,Syria,Asia,Middle East & North Africa,4.013468628,4,Extremely High (>80%),3.72298318,3,Medium - High (0.6-0.8),3.266019186,3,"High (8 in 1,000 to 1 in 100)",False
+TCD,Chad,Africa,Sub-Saharan Africa,0.853364564,0,Low (<10%),,,NoData,4.099907296,4,Extremely High (more than 1 in 100),
+TGO,Togo,Africa,Sub-Saharan Africa,0.003242327,0,Low (<10%),3.511489105,3,Medium - High (0.6-0.8),3.000466985,3,"High (8 in 1,000 to 1 in 100)",True
+THA,Thailand,Asia,East Asia & Pacific,3.623007642,3,High (40-80%),3.013592485,3,Medium - High (0.6-0.8),3.062734226,3,"High (8 in 1,000 to 1 in 100)",False
+TJK,Tajikistan,Asia,Europe & Central Asia,2.335048113,2,Medium - High (20-40%),3.089387405,3,Medium - High (0.6-0.8),4.212338709,4,Extremely High (more than 1 in 100),False
+TKM,Turkmenistan,Asia,Europe & Central Asia,3.73812683,3,High (40-80%),2.84021306,2,Medium (0.4-0.6),1.997996195,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",False
+TLS,Timor-Leste,Asia,East Asia & Pacific,1.772192187,1,Low - Medium (10-20%),2.40009749,2,Medium (0.4-0.6),3.190165089,3,"High (8 in 1,000 to 1 in 100)",True
+TON,Tonga,Oceania,East Asia & Pacific,,,NoData,,,NoData,,,,
+TTO,Trinidad and Tobago,Americas,Latin America & Caribbean,,,NoData,,,NoData,,,NoData,
+TUN,Tunisia,Africa,Middle East & North Africa,4.280358914,4,Extremely High (>80%),3.35145636,3,Medium - High (0.6-0.8),2.817825386,2,"Medium - High (4 in 1,000 to 8 in 1,000)",False
+TUR,Turkey,Asia,Europe & Central Asia,3.386483429,3,High (40-80%),3.0096242,3,Medium - High (0.6-0.8),2.090419868,2,"Medium - High (4 in 1,000 to 8 in 1,000)",False
+TUV,Tuvalu,Oceania,East Asia & Pacific,,,NoData,,,NoData,,,NoData,
+TZA,Tanzania,Africa,Sub-Saharan Africa,1.90521696,1,Low - Medium (10-20%),2.315088155,2,Medium (0.4-0.6),3.810360245,3,"High (8 in 1,000 to 1 in 100)",True
+UGA,Uganda,Africa,Sub-Saharan Africa,0.198089531,0,Low (<10%),2.54878685,2,Medium (0.4-0.6),2.147514651,2,"Medium - High (4 in 1,000 to 8 in 1,000)",True
+UKR,Ukraine,Europe,Europe & Central Asia,1.372503853,1,Low - Medium (10-20%),4.025066165,4,High (0.8-1.0),2.629977155,2,"Medium - High (4 in 1,000 to 8 in 1,000)",True
+URY,Uruguay,Americas,Latin America & Caribbean,1.832983309,1,Low - Medium (10-20%),2.754828035,2,Medium (0.4-0.6),0.40842066,0,"Low (0 to 2 in 1,000)",True
+USA,United States,Americas,North America,2.604411175,2,Medium - High (20-40%),1.974499975,1,Low - Medium (0.2-0.4),0.833962534,0,"Low (0 to 2 in 1,000)",False
+UZB,Uzbekistan,Asia,Europe & Central Asia,3.628291849,3,High (40-80%),3.496206055,3,Medium - High (0.6-0.8),2.666444479,2,"Medium - High (4 in 1,000 to 8 in 1,000)",False
+VCT,Saint Vincent and the Grenadines,Americas,Latin America & Caribbean,,,NoData,,,NoData,,,NoData,
+VEN,Venezuela,Americas,Latin America & Caribbean,1.820253759,1,Low - Medium (10-20%),2.15647755,2,Medium (0.4-0.6),1.622782887,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",True
+VNM,Vietnam,Asia,East Asia & Pacific,2.112769594,2,Medium - High (20-40%),3.326772565,3,Medium - High (0.6-0.8),4.185490564,4,Extremely High (more than 1 in 100),False
+VUT,Vanuatu,Oceania,East Asia & Pacific,,,NoData,,,NoData,,,NoData,
+WSM,Samoa,Oceania,East Asia & Pacific,,,NoData,,,NoData,,,,
+YEM,Yemen,Asia,Middle East & North Africa,4.693675833,4,Extremely High (>80%),,,NoData,4.018270676,4,Extremely High (more than 1 in 100),
+ZAF,South Africa,Africa,Sub-Saharan Africa,4.167753556,4,Extremely High (>80%),2.7591365,2,Medium (0.4-0.6),1.365721773,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",False
+ZMB,Zambia,Africa,Sub-Saharan Africa,0.84556736,0,Low (<10%),2.31894426,2,Medium (0.4-0.6),1.442897161,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",True
+ZWE,Zimbabwe,Africa,Sub-Saharan Africa,2.174587686,2,Medium - High (20-40%),2.56542228,2,Medium (0.4-0.6),1.800339204,1,"Low - Medium (2 in 1,000 to 4 in 1,000)",False

@@ -1,0 +1,41 @@
+source_csv_row,entity,iso3,year,share_pct,name,entity_type
+2,Africa (IEA),,2020,0.12848516,Africa,Region
+3,Africa (IEA),,2023,0.13967681,Africa,Region
+4,Africa (IEA),,2024,0.14496955,Africa,Region
+5,Africa (IEA),,2025,0.24995314,Africa,Region
+6,Asia Pacific (IEA),,2020,0.7189056,Asia Pacific,Region
+7,Asia Pacific (IEA),,2023,0.8408042,Asia Pacific,Region
+8,Asia Pacific (IEA),,2024,0.9321836,Asia Pacific,Region
+9,Asia Pacific (IEA),,2025,1.0674341,Asia Pacific,Region
+10,Central and South America (IEA),,2020,0.11703755,Central and South America,Region
+11,Central and South America (IEA),,2023,0.08527997,Central and South America,Region
+12,Central and South America (IEA),,2024,0.096574366,Central and South America,Region
+13,Central and South America (IEA),,2025,0.11527643,Central and South America,Region
+14,China,CHN,2020,0.7987601,China,Country
+15,China,CHN,2023,0.8898899,China,Country
+16,China,CHN,2024,1.0129217,China,Country
+17,China,CHN,2025,1.1075455,China,Country
+18,Europe (IEA),,2020,1.4439007,Europe,Region
+19,Europe (IEA),,2023,1.7518435,Europe,Region
+20,Europe (IEA),,2024,1.7685213,Europe,Region
+21,Europe (IEA),,2025,1.8701056,Europe,Region
+22,Middle East (IEA),,2020,0.0893597,Middle East,Region
+23,Middle East (IEA),,2023,0.09203735,Middle East,Region
+24,Middle East (IEA),,2024,0.101547584,Middle East,Region
+25,Middle East (IEA),,2025,0.28470466,Middle East,Region
+26,North America (IEA),,2020,2.2317514,North America,Region
+27,North America (IEA),,2023,3.0169368,North America,Region
+28,North America (IEA),,2024,3.4732153,North America,Region
+29,North America (IEA),,2025,4.1349845,North America,Region
+30,United States,USA,2020,2.6402705,United States,Country
+31,United States,USA,2023,3.6041856,United States,Country
+32,United States,USA,2024,4.1545305,United States,Country
+33,United States,USA,2025,4.9384785,United States,Country
+34,World,OWID_WRL,2020,1.0066096,World,Aggregate
+35,World,OWID_WRL,2023,1.2135375,World,Aggregate
+36,World,OWID_WRL,2024,1.3449625,World,Aggregate
+37,World,OWID_WRL,2025,1.5264845,World,Aggregate
+38,World excl. United States and China,,2020,0.66573197,World excl. United States and China,Aggregate
+39,World excl. United States and China,,2023,0.7647388,World excl. United States and China,Aggregate
+40,World excl. United States and China,,2024,0.7960854,World excl. United States and China,Aggregate
+41,World excl. United States and China,,2025,0.8636905,World excl. United States and China,Aggregate

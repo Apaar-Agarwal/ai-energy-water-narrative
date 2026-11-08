@@ -1,11 +1,18 @@
-# Portfolio documentation
+# Documentation index
 
-The team must add:
+- DATA_DICTIONARY.md — fields, units, coverage, transforms and source periods.
+- DESIGN_NOTES.md — visual tasks, forms, rejected alternatives and interactions.
+- VERIFICATION.md — source, reproducibility and interaction checks.
+- AI_PROVENANCE.csv — named member/integration AI records.
+- DISCLOSURE.md — data and AI disclosure.
+- MEMBER_CONFIRMATIONS.md — supplied accounts and personal-review scope.
+- THIRD_PARTY_NOTICES.md — source credits and source-specific reuse conditions.
+- RELEASE_REVIEW_NOV06.md — current release-preparation results and boundaries.
+- ACCESSIBILITY_REVIEW.md — final local presentation checks and limits.
+- PORTFOLIO_CHECKLIST.md — current local/public status.
+- BRANCH_SOURCES.json — original contribution revision map.
+- INTEGRATION_REPORT.md and REVIEW_NOTES_NOV03.md — historical notes, superseded by Nov06 where inconsistent.
 
-- DATA_DICTIONARY.md: source URL, licence, columns and units, primary key, time coverage, latest observation and transformation for every dataset.
-- AI_PROVENANCE.csv: artefact, who, tool, prompt/request, output, verification, outcome. Include every substantive use and at least one owned row per member; checks must be capable of failing.
-- DISCLOSURE.md: Data and AI disclosure statement.
-- DESIGN_NOTES.md: chart tasks, selected forms, rejected alternatives, reasons and accessibility checks.
-- VERIFICATION.md: source traces and final rubric checks.
+Original member notes are preserved and explicitly attributed. Final publication procedure: ../submission/RELEASE_STEPS.md.
 
-This is a checklist, not evidence that these requirements are complete.
+Individual entry points and relocated historical paths: ../contributors/README.md.

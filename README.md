@@ -1,0 +1,67 @@
+> Shared Part 2 integration for main, 8 November 2026. Individual contributor folders are uploaded separately by each member. All four integrated charts run from the shared data; those folders are not runtime dependencies.
+
+# Powering AI: why location matters
+
+**Question:** Should data-centre expansion supporting AI be assessed against local electricity and water constraints rather than global averages?
+
+**Persona:** an infrastructure policy adviser deciding whether expansion guidelines should vary by location. The app supports national/regional screening, not approval of individual sites.
+
+## Run the local integration
+
+```powershell
+python -m pip install -r requirements.txt
+python -m streamlit run app.py --server.port 8511
+```
+
+The app opens at http://localhost:8511. It reads packaged local CSVs and needs no live data API. Original individual water app remains on port 8510 if running. This work is on local branch `integration-part2`; it has not been pushed or deployed.
+
+## Guided investigation frontend
+
+The active frontend is `frontend.py`, entered from `app.py`. Follow one US/China profile in a persistent sidebar. Country-bar clicks update that profile and its downstream evidence; the year slider updates the electricity views. Compare share or percentage-point change, state an optional working hypothesis, then follow the water evidence. All four charts render on initial load; no click is needed to reveal them. Water-stress comparison defaults to Ireland as an explicitly water-only counterexample; the additional-risk scatter can be filtered to the blind-spot zone and switched to riverine flood risk. The final country brief offers a choice of evidence to request next, not an approval verdict.
+
+Tables are in expanders to keep the narrative readable. Palette, typography, narrative transitions and a sidebar evidence rail unify the four contributions. Exact values are available without hover. `story.py` retains common loading/evidence functions and previous chapter renderers for reference; the current frontend does not use the old four-section layout.
+
+## Three user stories
+
+1. As an infrastructure policy adviser, I want to compare data-centre electricity-demand shares across places so that I can identify where demand is relatively significant. Walkthrough: sidebar country/year → clickable country bars or regional context.
+2. As an infrastructure policy adviser, I want to examine change, water stress and drought risk so that I can identify additional resource constraints. Walkthrough: trajectory toggle → working hypothesis → water evidence → water-only comparison and extra-risk filter; the persistent matched country remains selected.
+3. As an infrastructure policy adviser, I want to inspect sources, transformations and limitations so that I can judge whether the evidence supports location-specific guidelines. Walkthrough: conclusion → source-record inspector → methods/disclosure.
+
+## One story, four contributions
+
+| Chapter | Contribution | Integration |
+|---|---|---|
+| 1 | Brighty, electricity comparison | Ranked bars, world reference, year controls; geographic levels kept separate; claims computed from selected data |
+| 2 | Sanjai, grid pressure/change | Change-from-2020 logic and illustrative threshold, adapted to a time-series chart with table; no fabricated annual observations |
+| 3 | Apaar, baseline water stress | National stress-score ranking, source trace, dimensionless units and missing-value handling |
+| 4 | Harsh, stress versus drought / riverine flood | Scatter, contextual countries, paired-data denominator and extra-risk indicator toggle |
+
+No four-tab wrapper: chapters appear in one vertical narrative, with transitions and a combined answer. Sources are contextual rather than a synchronized causal model.
+
+## Coverage decisions
+
+- OWID snapshot has 40 rows: 10 entities at 2020, 2023, 2024 and 2025. Only US and China are individual countries; six IEA regions and two aggregates are not additional countries. Shared country comparison therefore uses US/China. Other water countries are available under an explicitly separate exploration mode.
+- The water package has 192 entities, including 164 valid baseline water-stress scores. Drought and flood have separate missingness. All paired statistics use records with both indicators present.
+- Water stress: Aqueduct 4.0, 1979–2019 baseline. Drought/flood are inherited Aqueduct 3.0 indicators with their own reference periods; the app does not call them current drought or assign 1979–2019 to every measure.
+- Scores are weighted national aggregates, not literal national withdrawal ratios. Thresholds classify scores rather than asserting a physical national percentage. No combined sustainability score or site approval verdict.
+- Sanjai's AEMO material is retained under `contributors/Sanjai/submission_materials/`. It mixes reporting editions, scopes and years, expands the agreed two-dataset scope, and is not merged into the OWID comparison. Its source claims require primary-source verification before adding a separate chapter.
+
+## Source and processing
+
+The packaged source data and processed outputs are retained in the project folders. Source definitions, field mappings and reference-period caveats are described in `docs/DATA_DICTIONARY.md` and `docs/INTEGRATION_REPORT.md`.
+
+Individual teammate snapshots will be uploaded separately under `contributors/{Apaar,Brighty,Harsh,Sanjai}/`, including scripts, individual documentation and submitted archives. Apaar's standalone contribution belongs under `contributors/Apaar/`. These originals document contribution history; they are not imported as side-effectful standalone apps in the final narrative. The integration source map is in `docs/BRANCH_SOURCES.json`.
+
+## Before final submission
+
+This is the shared integration source; deployment and the final assessed release remain separate steps. Local release preparation is recorded in docs/RELEASE_REVIEW_NOV06.md. Follow submission/RELEASE_STEPS.md to resolve the IEA data-product reuse limitation, publish the approved version, check public timing and create the PDF with actual URLs and assessed revision. Do not invent a public URL or assessed hash before the team approves the release. See `docs/PORTFOLIO_CHECKLIST.md`.
+
+Final portfolio deadline from the supplied brief: 20 November 2026 at 11:59 pm. Peer reviews: 6 November 2026.
+
+## Check the shared upload
+
+```text
+python scripts/verify_integration.py --shared-only
+```
+
+This runs source, regeneration and app interaction checks without requiring member folders. Once all individual uploads are present, run without `--shared-only` to also compare the original Apaar/Harsh data snapshots.

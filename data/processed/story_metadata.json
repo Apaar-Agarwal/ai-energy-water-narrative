@@ -1,0 +1,20 @@
+{
+  "build": "offline from committed source snapshots",
+  "local_refresh": "2026-10-26",
+  "electricity_retrieved": "2026-10-18 (Brighty source log)",
+  "water_retrieved": "2026-10-22 (Harsh source note; member confirmation pending)",
+  "electricity_years": [
+    2020,
+    2023,
+    2024,
+    2025
+  ],
+  "water_stress_baseline": "1979\u00e2\u20ac\u201c2019",
+  "water_vintages": "bws: Aqueduct 4.0; drought and riverine flood: inherited Aqueduct 3.0 indicators; do not assign one observation period to all indicators",
+  "files": {
+    "data-centers-share-electricity-demand.csv": "303200a6555910cfd1e7f1cf0bf261487841002ab6a0dd63ff987f45f87a800c",
+    "Aqueduct40_rankings_download_Y2023M07D05.xlsx": "74a12845306c7a84711485cf97f067affb379a83894428bb1d42171eaa51a13a"
+  },
+  "electricity_rows": 40,
+  "water_rows": 192
+}
