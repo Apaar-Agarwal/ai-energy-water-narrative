@@ -1,0 +1,11 @@
+Presentation script
+
+Research question: where do data centres already take a large share of electricity demand, and how fast is that share rising?
+
+Data sources: We used the OWID/IEA dataset for the global comparison and official AEMO announcements and reports for the Australia spotlight. The US check uses the raw row United States,USA,2024,4.1545305 from the OWID/IEA source file, and the denominator is cross-checked against the electricity demand series in Ember.
+
+Calculation: The US share is 4.1545305%, or 0.041545305 of total demand. If data centres used about 415 TWh in 2024 and the US held 45% of global data-centre demand, the implied US numerator is 0.45 x 415 = 186.75 TWh. Dividing by 0.041545305 gives roughly 4,495 TWh, which is consistent with a U.S. electricity demand in the 4,500 TWh range.
+
+Australia comparison: AEMO states there are 162 operational data centres nationally and they account for around 2% of today’s grid-supplied electricity use. AEMO’s 2026 ESOO says NEM data centre consumption rises from approximately 5 TWh in 2025-26 to 34 TWh by 2035-36, or roughly 3% to 13% of grid-supplied electricity. The 2025 IASR adds a historical baseline at about 4 TWh in 2024-25 and Step Change forecasts of about 12 TWh by 2030 and 34 TWh by 2050, or about 6% and 12% of grid-supplied electricity.
+
+Limitations: These are national or NEM-scale shares, not proof of local grid congestion. The Australia and global numbers are not like-for-like because the Australian series is based on financial-year AEMO data and grid-supplied electricity, while the global OWID series is a different denominator. Different reports and denominator assumptions can produce slightly different share percentages, especially for 2050 forecasts.

@@ -1,0 +1,8 @@
+Australia verification
+
+Official AEMO sources checked:
+- Digital demand surge (1 Jun 2026): 162 operational data centres nationally; around 2% of today’s grid-supplied electricity use.
+- 2026 ESOO media release (25 Aug 2026): data centre electricity consumption in the NEM is forecast to rise from approximately 5 TWh in 2025-26 to 34 TWh by 2035-36, increasing from around 3% to approximately 13% of electricity supplied through the grid.
+- 2025 IASR: historical baseline of about 4 TWh in 2024-25; Step Change forecast of approximately 12 TWh by 2030 and about 34 TWh by 2050, or around 6% and 12% of grid-supplied electricity.
+
+Important interpretation: these are system-level or NEM-level shares, not local grid congestion evidence. The 2050 12% and 10% figures come from different reports and denominator assumptions and should not be conflated.

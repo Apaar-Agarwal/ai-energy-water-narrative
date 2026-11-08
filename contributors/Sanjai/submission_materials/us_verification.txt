@@ -1,0 +1,8 @@
+United States verification
+
+Raw row: United States,USA,2024,4.1545305
+Share: 4.1545305% = 0.041545305
+IEA estimate: 415 TWh total data-centre energy in 2024; US share = 45%
+US numerator: 0.45 * 415 = 186.75 TWh
+Implied denominator: 186.75 / 0.041545305 = 4495.09 TWh
+Result: approximately 4,500 TWh of total U.S. electricity demand, consistent with the scale of the Ember U.S. demand data.

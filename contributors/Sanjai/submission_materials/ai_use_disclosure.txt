@@ -1,0 +1,10 @@
+AI-use disclosure
+
+This project used direct source verification and local file inspection, not external AI-generated fact claims.
+
+Used in this workflow:
+- Local review of the project files in grid_pressure.py and the processed Australia CSV.
+- Browser-based verification of the official AEMO pages: Digital demand surge (1 Jun 2026), 2026 ESOO media release, and the official AEMO IASR PDF.
+- Direct calculation from the raw US OWID/IEA row for United States, 2024.
+
+No AI model was used to fabricate or replace evidence from the underlying datasets or official sources. The analysis was checked against the underlying rows and the public AEMO statements before being written up.
