@@ -1,4 +1,4 @@
-> Shared Part 2 integration for main, 8 November 2026. Individual contributor folders are uploaded separately by each member. All four integrated charts run from the shared data; those folders are not runtime dependencies.
+> Deployed Part 2 portfolio, 14 November 2026. All four individual contributions are included.
 
 # Powering AI: why location matters
 
@@ -13,7 +13,7 @@ python -m pip install -r requirements.txt
 python -m streamlit run app.py --server.port 8511
 ```
 
-The app opens at http://localhost:8511. It reads packaged local CSVs and needs no live data API. Original individual water app remains on port 8510 if running. This work is on local branch `integration-part2`; it has not been pushed or deployed.
+The app opens at http://localhost:8511. It reads packaged local CSVs and needs no live data API. Original individual water app remains on port 8510 if running. The shared app is deployed from the repository's `main` branch.
 
 ## Guided investigation frontend
 
@@ -50,18 +50,24 @@ No four-tab wrapper: chapters appear in one vertical narrative, with transitions
 
 The packaged source data and processed outputs are retained in the project folders. Source definitions, field mappings and reference-period caveats are described in `docs/DATA_DICTIONARY.md` and `docs/INTEGRATION_REPORT.md`.
 
-Individual teammate snapshots will be uploaded separately under `contributors/{Apaar,Brighty,Harsh,Sanjai}/`, including scripts, individual documentation and submitted archives. Apaar's standalone contribution belongs under `contributors/Apaar/`. These originals document contribution history; they are not imported as side-effectful standalone apps in the final narrative. The integration source map is in `docs/BRANCH_SOURCES.json`.
+Individual teammate snapshots are retained under `contributors/{Apaar,Brighty,Harsh,Sanjai}/`, including scripts, individual documentation and submitted archives. Apaar's standalone contribution is under `contributors/Apaar/`. These originals document contribution history; they are not imported as side-effectful standalone apps in the final narrative. The integration source map is in `docs/BRANCH_SOURCES.json`.
 
-## Before final submission
+## Deployment and submission
 
-This is the shared integration source; deployment and the final assessed release remain separate steps. Local release preparation is recorded in docs/RELEASE_REVIEW_NOV06.md. Follow submission/RELEASE_STEPS.md to resolve the IEA data-product reuse limitation, publish the approved version, check public timing and create the PDF with actual URLs and assessed revision. Do not invent a public URL or assessed hash before the team approves the release. See `docs/PORTFOLIO_CHECKLIST.md`.
+Live app: https://powering-ai-energy-water.streamlit.app/
+Repository: https://github.com/Apaar-Agarwal/ai-energy-water-narrative
+Entry point: root app.py. Cloud Python: 3.14. Requirements: requirements.txt.
 
-Final portfolio deadline from the supplied brief: 20 November 2026 at 11:59 pm. Peer reviews: 6 November 2026.
+Submit one PDF per group by Friday 20 November 2026, 11:59 pm. It must contain the live app URL, repository URL and full assessed commit or release tag. All supporting files are in this repository at that revision. The PDF is supplied separately for Canvas; do not submit a ZIP in its place.
 
-## Check the shared upload
+Peer contribution factors: Apaar 1.0, Brighty 1.0, Sanjai 1.0, Harsh 1.0, declared as equal contribution by Apaar on behalf of the group on 14 November 2026. See docs/PEER_CONTRIBUTIONS.md.
+
+Use the revision in the final PDF as the assessed version. Any subsequent code change requires updating that revision and checking the deployment. Source notices remain in docs/THIRD_PARTY_NOTICES.md. Sanjai's existing personal verification entry is preserved unchanged at Apaar's request; it has not been strengthened by inventing a check.
+
+## Reproduce and verify
 
 ```text
-python scripts/verify_integration.py --shared-only
+python scripts/verify_integration.py
 ```
 
-This runs source, regeneration and app interaction checks without requiring member folders. Once all individual uploads are present, run without `--shared-only` to also compare the original Apaar/Harsh data snapshots.
+This runs source-equality checks, member-water comparisons, repeated builds, cross-platform newline checks and app interactions. Source data is packaged locally; no live API is required. `--shared-only` is retained for checking an intentionally partial copy, but the full assessed repository uses the strict default command.

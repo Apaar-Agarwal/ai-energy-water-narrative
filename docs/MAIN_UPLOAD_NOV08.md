@@ -1,3 +1,5 @@
+> Historical review. Current deployment and final status: FINAL_REVIEW_NOV14.md.
+
 # Shared main upload — 8 November 2026
 
 Apaar authorised publishing the shared integrated app, data, processing scripts, combined documentation and setup files to main. No individual contributor folder is included in this commit; each member uploads their own reviewed folder from their GitHub account, in any order. contributors/README.md gives the entry points.

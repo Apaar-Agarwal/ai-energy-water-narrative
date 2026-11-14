@@ -56,3 +56,69 @@ Build description, local integration refresh 26 October 2026, teammate-supplied 
 ## Retained individual datasets
 
 Brighty's tidy OWID CSV and script remain under contributors/Brighty plus their original shared paths; documentation in docs/source_log.md. Harsh's one-row-per-country CSV/source sample/scripts remain under contributors/Harsh and shared data/docs paths; fields documented in docs/m4_data_dictionary.md. Apaar's archive/sample/processed data and detailed dictionary remain under contributors/Apaar. These are preserved contribution evidence; the narrative reads only story files generated above. Sanjai's manually compiled AEMO file and source notes are archived under contributors/Sanjai, not read by the narrative; do not treat their inclusion as verification of their claims or an additional comparable app dataset.
+
+## Preserved electricity member output
+
+`data/processed/owid_data_centres_share_clean.csv` and `contributors/Brighty/data/processed/owid_data_centres_share_clean.csv` are identical derived OWID data. Source, source URL, licence, 2020/2023-2025 coverage and latest observation 2025 are as section 1. Primary key: (entity, year). `scripts/process_owid.py` renames Entity->entity, Code->code, Year->year, the numeric percentage column->share_pct, strips the display suffix into entity_clean and classifies entity_type. All text/code fields are dimensionless; year is calendar year and share_pct is percent. No interpolation or numerical rescaling.
+
+`contributors/Sanjai/submission_materials/us_raw_row.csv` is a full 40-row copy of the OWID source, despite its filename. Its schema, key, units, coverage, licence and source URL are section 1; it is not a one-row independent US dataset.
+
+## Preserved water member outputs
+
+Harsh's processed files in root data/processed and contributors/Harsh/data/processed contain the same 192 country records. Source, licence and indicator-specific time coverage are section 2; primary key iso3. Columns and transforms are in m4_data_dictionary.md (corrected 14 November 2026). Latest reference inputs differ by indicator: stress ends 2019, drought ends 2014, riverine flood baseline 2010 plus 2016 protection input. No time series is implied.
+
+Apaar's `contributors/Apaar/data/raw/country_baseline_bws_tot.csv` has 189 source selection rows, key gid_0. It selects bws/Tot from the same WRI country_baseline sheet and adds source_excel_row. Its `data/processed/water_stress.csv` has key iso3 and 189 rows, including 164 valid scores; it renames source columns and adds has_score, with no score rescaling. All columns, units and transforms: ../contributors/Apaar/docs/DATA_DICTIONARY.md. Source URL/licence are section 2; period 1979-2019, latest baseline input 2019. The saved ZIP is the original WRI archive, not a separate numerical source.
+
+Unconsumed sheets embedded in the WRI workbook/archive remain source material, not inputs to the narrative. Their baseline/future and country/provincial schemas are defined in the linked WRI country-rankings dictionary; no projections or provincial observations are read, transformed or displayed by this app.
+
+## Archived Australia/AEMO supporting dataset
+
+File: `contributors/Sanjai/submission_materials/australia_aemo.csv` (8 rows). This is a member-supplied manual transcription kept as historical contribution evidence; it is NOT read by the integrated app and is not added to the OWID comparison. Source URLs are recorded per row in url, with details in australia_sources.md beside the file.
+
+- Publisher/source: AEMO 2025 Inputs, Assumptions and Scenarios Report; AEMO 2026 ESOO; 2026 Digital demand surge news update; 2026 ISP. These are different editions/scopes/denominators, not one comparable time series.
+- Source URLs: https://www.aemo.com.au/newsroom/news-updates/digital-demand-surge ; https://www.aemo.com.au/newsroom/media-release/2026-esoo ; https://aemo.com.au/energy-systems/major-publications/integrated-system-plan-isp/2026-integrated-system-plan-isp ; the full IASR PDF URL is retained in each relevant row.
+- Licence/conditions: AEMO copyright with its general permission for accurately attributed AEMO Material, subject to the stated exclusions. This is not described as CC BY. Policy: https://www.aemo.com.au/privacy-and-legal-notices/copyright-permissions (reviewed 14 November 2026).
+- Primary key: (label, publication, scope, scenario), unique within the saved eight-row table. sort_key alone is NOT unique.
+- Time coverage: mixed financial-year estimates from 2024-25 and 2025-26, a mid-2026 present-day estimate, and forecasts to 2050. Latest non-forecast reference: mid-2026/2025-26, not the end of the forecast horizon. Publication editions span 2025-2026.
+- Transform: hand-entered/transcribed by the contributor from cited publications; numeric sorting helper added, scope/scenario and chart-inclusion flags recorded. No shared regeneration script creates these manually compiled observations. They are excluded from the reproducible app pipeline; no verification of all archived numerical claims is asserted by this release review.
+
+| Column | Type / units | Definition |
+|---|---|---|
+| label | text | Financial year, calendar year or dated snapshot label; includes scenario qualifiers |
+| sort_key | number / year ordering helper | Approximate display order; not an observation date or unique key |
+| consumption_twh | number / TWh | Reported electricity use or forecast; blank means not supplied |
+| share_pct | number / percent | Reported share using the row-specific denominator; blank is not zero |
+| status | text | estimate or forecast |
+| scenario | text | Reported scenario or n/a |
+| publication | text | Source publication/edition |
+| evidence | text | Contributor's primary/secondary attribution flag |
+| scope | text | Geographic/system scope, e.g. NEM; not interchangeable with all Australia |
+| denominator | text | Electricity basis used for the reported share |
+| url | text / URL | Row-specific source link |
+| in_chart | text / yes-no | Original standalone dashboard choice; not an inclusion flag for the integrated app |
+| note | text | Contributor's source/interpretation caveat |
+
+## Complete packaged CSV inventory
+
+Every numerical CSV is listed below. Duplicate member snapshots inherit the corresponding source definitions above; they are not counted as independent sources. AI_PROVENANCE.csv files are administrative declarations (their seven-column schema is the assignment's matrix), not numerical datasets. JSON metadata supplies hashes/refresh notes and does not introduce numerical observations.
+
+| File | Rows | Source/schema family |
+|---|---:|---|
+| `contributors/Apaar/data/processed/water_stress.csv` | 189 | Apaar processed stress above |
+| `contributors/Apaar/data/raw/country_baseline_bws_tot.csv` | 189 | WRI country_baseline, section 2; added row locator where present |
+| `contributors/Brighty/data/processed/owid_data_centres_share_clean.csv` | 40 | OWID member output above |
+| `contributors/Brighty/data/raw/data-centers-share-electricity-demand.csv` | 40 | OWID original, section 1 |
+| `contributors/Harsh/data/processed/m4_water_stress_drought.csv` | 192 | Harsh processed water; m4_data_dictionary.md |
+| `contributors/Harsh/data/raw/aqueduct40_country_baseline.csv` | 2456 | WRI country_baseline, section 2; added row locator where present |
+| `contributors/Sanjai/submission_materials/australia_aemo.csv` | 8 | Archived AEMO table above |
+| `contributors/Sanjai/submission_materials/us_raw_row.csv` | 40 | OWID original, section 1 |
+| `data/processed/grid_share.csv` | 40 | grid_share.csv above |
+| `data/processed/m4_water_stress_drought.csv` | 192 | Harsh processed water; m4_data_dictionary.md |
+| `data/processed/owid_data_centres_share_clean.csv` | 40 | OWID member output above |
+| `data/processed/story_electricity.csv` | 40 | story_electricity.csv above |
+| `data/processed/story_water.csv` | 192 | story_water.csv above |
+| `data/raw/aqueduct40_country_baseline.csv` | 2456 | WRI country_baseline, section 2; added row locator where present |
+| `data/raw/data-centers-share-electricity-demand.csv` | 40 | OWID original, section 1 |
+| `data/raw/story_country_baseline_sample.csv` | 2456 | WRI country_baseline, section 2; added row locator where present |
+
+The OWID original numeric column is named `Share of total electricity demand coming from data centers`; its unit is percent. No source values or archived member CSVs were changed by this documentation review.

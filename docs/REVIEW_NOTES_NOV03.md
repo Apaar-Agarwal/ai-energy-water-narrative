@@ -1,3 +1,5 @@
+> Historical review. Current deployment and final status: FINAL_REVIEW_NOV14.md.
+
 > Historical record. Current release status: RELEASE_REVIEW_NOV06.md and PORTFOLIO_CHECKLIST.md. Later member declarations and licence findings supersede old pending/resolved statements.
 
 # Review update — 3 November 2026

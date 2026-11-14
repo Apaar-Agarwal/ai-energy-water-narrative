@@ -1,8 +1,17 @@
 {
   "repository_url": "https://github.com/Apaar-Agarwal/ai-energy-water-narrative",
-  "public_app_url": null,
-  "assessed_commit": null,
-  "publication_status": "shared_source_main_upload_individual_contributions_pending",
-  "rights_status": "IEA_data_product_redistribution_requires_resolution",
-  "source_upload_date": "2026-11-08"
+  "public_app_url": "https://powering-ai-energy-water.streamlit.app/",
+  "assessed_ref": "a3-part2-final",
+  "entry_point": "app.py",
+  "branch": "main",
+  "python_version": "3.14",
+  "publication_status": "deployed",
+  "peer_factors": {
+    "Apaar": 1.0,
+    "Brighty": 1.0,
+    "Sanjai": 1.0,
+    "Harsh": 1.0
+  },
+  "declaration_date": "2026-11-14",
+  "note": "The final PDF gives the full resolved assessed commit. The tag identifies it without a self-referential commit hash in this file."
 }

@@ -1,3 +1,5 @@
+> Historical review. Current deployment and final status: FINAL_REVIEW_NOV14.md.
+
 # Local release preparation — 6 November 2026
 
 Input: the user-supplied AI_Energy_Water_Part2.zip. Its original archive was left unchanged. Output is a separate clean source package; no GitHub push or deployment was performed.

@@ -107,7 +107,7 @@ def electricity(e,iso,country,year,current,base,world,delta):
     geography=st.radio('Comparison lens',['Country pair','Regional context'],horizontal=True,key='comparison_lens',label_visibility='collapsed')
     d=e.loc[(e.entity_type==('Country' if geography=='Country pair' else 'Region'))&(e.year==year)].copy().sort_values('share_pct',ascending=False)
     d['focus']=d.iso3.eq(iso);d['label']=d.share_pct.map(lambda v:f'{v:.2f}%')
-    c=alt.Chart(d).encode(x=alt.X('share_pct:Q',title='Data-centre share of electricity demand (%)',scale=alt.Scale(domain=[0,max(world,d.share_pct.max())*1.22],nice=False)),y=alt.Y('name:N',sort=d.name.tolist(),title=None))
+    c=alt.Chart(d).encode(x=alt.X('share_pct:Q',title='Data-centre share of electricity demand (%)',scale=alt.Scale(domain=[0,max(world,d.share_pct.max())*1.22],nice=False)),y=alt.Y('name:N',sort=d.name.tolist(),title='Country' if geography=='Country pair' else 'IEA region'))
     bars=c.mark_bar(size=26,cornerRadiusEnd=3)
     if geography=='Country pair':
         bars=bars.encode(color=alt.Color('name:N',scale=alt.Scale(domain=['United States','China'],range=[TEAL,ORANGE]),legend=None),opacity=alt.condition('datum.focus',alt.value(1),alt.value(.45))).add_params(alt.selection_point(name='pick_country',fields=['iso3'],on='click',clear='dblclick'))
@@ -149,7 +149,7 @@ def render_water(w,water,country,iso,low,elevated):
     d['label']=d.bws_score.map(lambda v:f'{v:.2f} / 5');d['focus']=d.iso3.eq(iso)
     if d.empty: st.info('No water-stress scores for these countries.')
     else:
-        c=alt.Chart(d).encode(x=alt.X('bws_score:Q',title='Baseline water-stress score (dimensionless, 0–5)',scale=alt.Scale(domain=[0,5.7],nice=False),axis=alt.Axis(values=[0,1,2,3,4,5])),y=alt.Y('country:N',sort=d.country.tolist(),title=None))
+        c=alt.Chart(d).encode(x=alt.X('bws_score:Q',title='Baseline water-stress score (dimensionless, 0–5)',scale=alt.Scale(domain=[0,5.7],nice=False),axis=alt.Axis(values=[0,1,2,3,4,5])),y=alt.Y('country:N',sort=d.country.tolist(),title='Country'))
         bars=c.mark_bar(size=24,cornerRadiusEnd=3).encode(color=alt.condition('datum.focus',alt.value(TEAL if iso=='USA' else ORANGE),alt.value('#5264A4')))
         st.altair_chart(finish((bars+c.mark_text(align='left',dx=7,fontSize=12,color=INK).encode(text='label:N')).properties(height=160,title='The water-stress contrast · national weighted scores')),width='stretch',theme=None)
     st.caption(f'{mapping[comparator]} is a water-only comparison here. No electricity value is invented. Stress uses the 1979–2019 baseline; this is not AI water use and cannot be converted to a national withdrawal percentage.')

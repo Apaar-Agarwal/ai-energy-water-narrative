@@ -16,3 +16,5 @@
 Original member notes are preserved and explicitly attributed. Final publication procedure: ../submission/RELEASE_STEPS.md.
 
 Individual entry points and relocated historical paths: ../contributors/README.md.
+
+Current release: FINAL_REVIEW_NOV14.md, PERFORMANCE_REVIEW.md and PEER_CONTRIBUTIONS.md. Historical review documents describe their dates and do not override current deployment status.

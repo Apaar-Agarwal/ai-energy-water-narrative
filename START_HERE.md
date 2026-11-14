@@ -67,4 +67,4 @@ All four charts are rendered on initial load, with no reveal button or interacti
 
 The active frontend is `frontend.py`; the entry point is `app.py`. Shared loading and evidence helpers are in `story.py`. Individual originals remain under `contributors/` and `contributors/Apaar/`. See README.md and docs/INTEGRATION_REPORT.md for scope decisions and remaining release tasks.
 
-This is a local review package, not a deployed assessed release. Named AI records and local checks are documented. Public-release rights, deployment and final submission identifiers remain; see submission/RELEASE_STEPS.md. Do not treat archived member files as additional verified app sources.
+The integrated app is deployed at https://powering-ai-energy-water.streamlit.app/. All four contributor folders are present. Submit the final PDF containing the actual assessed revision; see submission/RELEASE_STEPS.md. Archived member files are labelled separately from the active app inputs.

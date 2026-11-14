@@ -1,3 +1,5 @@
+> Corrected reference: 14 November 2026. Paths are relative to the member folder for individual copies; source definitions match the integrated dictionary.
+
 > Original member record: dashboard paths below are relative to contributors/Harsh. The integrated app is root app.py.
 
 # Data dictionary – Member 4 (water stress vs drought / flood risk)
@@ -6,15 +8,15 @@
 
 | Field | Entry |
 |---|---|
-| Files | `data/source/Aqueduct40_rankings_download_Y2023M07D05.xlsx` (original download, unchanged)<br>`data/source/aqueduct40_country_baseline.csv` (source sample: sheet `country_baseline` exported unchanged by `scripts/m4_extract_source_sample.py`) |
+| Files | `data/raw/Aqueduct40_rankings_download_Y2023M07D05.xlsx` (original download, unchanged)<br>`data/raw/aqueduct40_country_baseline.csv` (source sample: sheet `country_baseline` exported unchanged by `scripts/m4_extract_source_sample.py`) |
 | Publisher | World Resources Institute (WRI) |
 | URL | https://www.wri.org/data/aqueduct-40-country-rankings |
 | Citation | Kuzma, S. et al. 2023. *Aqueduct 4.0: Updated decision-relevant global water risk indicators.* Technical Note. WRI. doi.org/10.46830/writn.23.00061 |
-| Licence | Creative Commons, as listed on the WRI page. **Confirm the exact version (WRI open data is usually CC BY 4.0) before submission.** |
+| Licence | CC BY 4.0, as specified in the WRI country-rankings dictionary. |
 | Release / version | File dated 5 July 2023 (`Y2023M07D05`); WRI page published 16 Aug 2023 |
-| Downloaded | 22 Oct 2026 (confirm) |
-| Time coverage | Hydrological baseline 1979–2019, one value per country (no time series) |
-| Latest observation | 2019 (end of the baseline period) |
+| Downloaded | 22 Oct 2026 (member-reported retrieval) |
+| Time coverage | bws: 1979–2019; drr: 2000–2014; rfr: 2010 model baseline with 2016 flood-protection input. One weighted score per country/indicator, not an annual time series |
+| Latest observation | No common latest observation: bws input period ends 2019; drought period ends 2014; riverine flood baseline is 2010 with protection input 2016 |
 | Grain / primary key | `gid_0` + `indicator_name` + `weight` (checked unique: 2,456 rows, 0 duplicates) |
 | Coverage | 192 countries (GADM 3.6 codes) |
 | Missing values | Sentinel `-9999` in `score` and `cat`, `label` = `NoData` |
@@ -34,13 +36,7 @@
 
 Category thresholds (taken from the `label` column):
 
-| cat | bws (withdrawals ÷ renewable supply) | drr (raw index 0–1) | rfr (population affected per year) |
-|---|---|---|---|
-| 0 | Low (<10 %) | Low (0.0–0.2) | Low (0 to 2 in 1,000) |
-| 1 | Low-Medium (10–20 %) | Low-Medium (0.2–0.4) | Low-Medium (2 to 4 in 1,000) |
-| 2 | Medium-High (20–40 %) | Medium (0.4–0.6) | Medium-High (4 to 8 in 1,000) |
-| 3 | High (40–80 %) | Medium-High (0.6–0.8) | High (8 in 1,000 to 1 in 100) |
-| 4 | Extremely High (>80 %) | High (0.8–1.0) | Extremely High (>1 in 100) |
+The source `label` is retained verbatim for each weighted national indicator score. These are dimensionless weighted scores, not direct national physical ratios. Do not infer a national withdrawal percentage or affected-population rate from a weighted score. Indicator periods and weights are documented above and in the integrated dictionary.
 
 ## D4.2 Processed: `data/processed/m4_water_stress_drought.csv`
 
@@ -48,7 +44,7 @@ Category thresholds (taken from the `label` column):
 |---|---|
 | Produced by | `python scripts/m4_process.py` (reads D4.1 CSV only) |
 | Grain / primary key | `iso3` (one row per country, 192 rows, checked unique) |
-| Time coverage / latest obs. | As D4.1: 1979–2019 baseline |
+| Time coverage / latest obs. | Indicator-specific vintages as D4.1; do not assign the water-stress period to drr/rfr |
 | Read by | `dashboards/m4_stress_vs_drought.py` |
 
 | Column | Type | Unit | Description |

@@ -14,6 +14,10 @@ def load_data():
             pd.read_csv(ROOT/'data/processed/story_water.csv'),
             json.loads((ROOT/'data/processed/story_metadata.json').read_text(encoding='utf-8')))
 
+@st.cache_data
+def load_source_csv(relative_path):
+    return pd.read_csv(ROOT/relative_path)
+
 def table(data,key):
     st.dataframe(data,hide_index=True,width='stretch')
     st.download_button('Download these values',data.to_csv(index=False),f'{key}.csv','text/csv',key=key)
@@ -153,14 +157,14 @@ def evidence(e,w):
             entity=st.selectbox('Source entity',e.entity.unique().tolist(),key='trace_entity')
             year=st.selectbox('Source observation year',sorted(e.year.unique().tolist()),key='trace_year')
             row=e.loc[(e.entity==entity)&(e.year==year)]
-            raw=pd.read_csv(ROOT/'data/raw/data-centers-share-electricity-demand.csv')
+            raw=load_source_csv('data/raw/data-centers-share-electricity-demand.csv')
             match=raw.loc[(raw.Entity==entity)&(raw.Year==year)]
             st.dataframe(match.T.astype(str).rename(columns={match.index[0]:'Original value'}),width='stretch')
             st.caption(f'Raw CSV row {int(row.source_csv_row.iloc[0])}, including header. Value is already a percentage; rename only, no interpolation. Source matches processed: {float(match.iloc[0,-1]) == float(row.share_pct.iloc[0])}.')
         else:
             mapping=dict(zip(w.iso3,w.country))
             country=st.selectbox('Source country',w.iso3.tolist(),format_func=lambda x:mapping[x],key='trace_country')
-            raw=pd.read_csv(ROOT/'data/raw/story_country_baseline_sample.csv')
+            raw=load_source_csv('data/raw/story_country_baseline_sample.csv')
             match=raw.loc[(raw.gid_0==country)&(((raw.indicator_name.isin(['bws','drr']))&(raw.weight=='Tot'))|((raw.indicator_name=='rfr')&(raw.weight=='Pop')))]
             for r in match.itertuples():
                 st.markdown(f'**{r.indicator_name} / {r.weight}** · workbook sheet country_baseline · Excel row {r.source_excel_row}')
